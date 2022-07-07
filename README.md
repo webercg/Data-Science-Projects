@@ -27,5 +27,5 @@ Mesmo após a breve experiência com Engenharia trabalhando em uma fabrica de ba
 
 Atuei por 2 anos como consultor de T.I em uma consultoria de software de gestao de laboratórios (LIMS). Com pouco tempo de experiência fui promovido a lider de equipe e além de realizar a gestão do contrato de suporte do cliente, realizava o entendimento de regras de negócio e levantamento de requisitos, parte das demandas geradas eram repassado à minha equipe e outra parte eu executava. Atuei com desenvolvimento de relatórios em Crystal (SAP), automação de processos em laboratórios (Análises, Testes, CQ, Projetos, Banco de dados, Relatórios Crystal, Relatórios Excel) e atendimento de chamados de suporte aos clientes BRF, Petrobras, Suzano, Avon, O Boticario, PQS.
 
-Como forma de acelerar a migração de carreira para Ciência de Dados pedi demissão no início de 2022 para focar em estudar e desenvolver o portifólio. Atualmente, sigo realizando projetos de Data Science como Freelancer na plataforma Workana e realizo cursos extras relacionados a Ciência de Dados, Estatistica e Engenharia de Dados na plataforma Stack Tecnologias.
+Atualmente, sigo realizando projetos de Data Science como Freelancer na plataforma Workana e realizo cursos extras de Ciência de Dados, Estatistica e Engenharia de Dados na plataforma Stack Tecnologias.
  
