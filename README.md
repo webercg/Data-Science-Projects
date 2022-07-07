@@ -25,7 +25,9 @@ Esse é um repositorio onde estão armazenados os meus projetos de data science,
  
 Mesmo após a breve experiência com Engenharia trabalhando em uma fabrica de baterias eu sempre me encatava em resolver problemas de I.T como, por exemplo, reorganizar as informações da equipe de controle de qualidade para facilitar a visibilidade da área aos gestores, reorganizar os dados para facilitar a rastreabilidade de produtos e materias primas defeituosas.
 
-Atuei por 2 anos como consultor de T.I em uma consultoria de software de gestao de laboratórios (LIMS). Com pouco tempo de experiência fui promovido a lider de equipe e além de realizar a gestão do contrato de suporte do cliente, realizava o entendimento de regras de negócio e levantamento de requisitos, parte das demandas geradas eram repassado à minha equipe e outra parte eu executava. Atuei com desenvolvimento de relatórios em Crystal (SAP), automação de processos em laboratórios (Análises, Testes, CQ, Projetos, Banco de dados, Relatórios Crystal, Relatórios Excel) e atendimento de chamados de suporte aos clientes BRF, Petrobras, Suzano, Avon, O Boticario, PQS.
+Atuei por 2 anos como consultor de T.I em uma consultoria de software de gestao de laboratórios (LIMS). Com pouco tempo de experiência fui promovido a lider de equipe e além de realizar a gestão do contrato de suporte do cliente, realizava o entendimento de regras de negócio e levantamento de requisitos, parte das demandas geradas eram repassado à minha equipe e outra parte eu executava. 
+
+Atuei com desenvolvimento de relatórios em Crystal (SAP), automação de processos em laboratórios (Análises, Testes, CQ, Projetos, Banco de dados, Relatórios Crystal, Relatórios Excel) e atendimento de chamados de suporte aos clientes BRF, Petrobras, Suzano, Avon, O Boticario, PQS.
 
 Atualmente, sigo realizando projetos de Data Science como Freelancer na plataforma Workana e realizo cursos extras de Ciência de Dados, Estatistica e Engenharia de Dados na plataforma Stack Tecnologias.
  
