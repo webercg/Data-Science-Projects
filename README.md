@@ -19,17 +19,13 @@ Esse é um repositorio onde estão armazenados os meus projetos de data science,
  - [Machine-Learning-with-Apache-Spark](https://github.com/jmcabreira/Data-Science-Projects/tree/master/Pyspark)
  - [Understanding-consumer-behavior-on-Black-Friday](https://github.com/jmcabreira/Data-Science-Projects/blob/master/Understanding-consumer-behavior-on-Black-Friday/Black_Friday.ipynb)
  
- # About me :
+ # Sobre mim :
  
- I am an electrical engineer turned data scientist who loves leveraging data-driven solutions that make an impact on business and society. My first encounter with data science occurred when I worked as a student researcher at the Applied Computational Intelligence Laboratory (Fluminense Federal University) in which I built Artificial Neural Network models for power forecast.
+ Sou Engenheiro Químico de formação pela Escola Politécnica da Universidade de São Paulo (Poli-USP) e Especialista em Ciência de Dados pela UTFPR. Encontrei a minha paixão por dados durante meu estágio em uma distribuidora de produtos de limpeza em 2018 onde encabecei e desenvolvi um projeto voltado á automação do processo de compras em que o produto final foi um relatório de sugestão de compas baseado no nível de estoques, previsão de vendas, tempo de entrega por fornecedor, checagem de atendimento ao pedido mínimo, checagem de produtos com riscos de ruptura de estoque e tempo de entrega por fornecedores. 
+ 
+Mesmo após a breve experiência com Engenharia trabalhando em uma fabrica de baterias eu sempre me encatava em resolver problemas de I.T como, por exemplo, reorganizar as informações da equipe de controle de qualidade para facilitar a visibilidade da área aos gestores, reorganizar os dados para facilitar a rastreabilidade de produtos e materias primas defeituosas.
 
-Thereafter, I won a scholarship that allowed me to study at the University of Toronto in Canada. After this experience, I was given the opportunity to work with electrical projects and project management in a small company in Rio de Janeiro, Brazil. My third working contract involved tasks related to the project management of two electrical substation construction projects in a multinational company.
+Atuei por 2 anos como consultor de T.I em uma consultoria de software de gestao de laboratórios (LIMS). Com pouco tempo de experiência fui promovido a lider de equipe e além de realizar a gestão do contrato de suporte do cliente, realizava o entendimento de regras de negócio e levantamento de requisitos, parte das demandas geradas eram repassado à minha equipe e outra parte eu executava. Atuei com desenvolvimento de relatórios em Crystal (SAP), automação de processos em laboratórios (Análises, Testes, CQ, Projetos, Banco de dados, Relatórios Crystal, Relatórios Excel) e atendimento de chamados de suporte aos clientes BRF, Petrobras, Suzano, Avon, O Boticario, PQS.
 
-Right now, I’m currently working for a Brazilian DS platform and I am also a freelancer 
-
-Aplications:
-
-
--[Car Recommendation System](https://car-recommender-jmcabreira.herokuapp.com/)
-- [Spotify Music Recommendation](https://spotify-music-recommender.herokuapp.com/)
+Como forma de acelerar a migração de carreira para Ciência de Dados pedi demissão no início de 2022 para focar em estudar e desenvolver o portifólio. Atualmente, sigo realizando projetos de Data Science como Freelancer na plataforma Workana e realizo cursos extras relacionados a Ciência de Dados, Estatistica e Engenharia de Dados na plataforma Stack Tecnologias.
  
