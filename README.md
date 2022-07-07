@@ -1,9 +1,8 @@
 
 ![](image/WeberLogo.png)
 
-
-This is the repo in which I post my data science, machine learning and deep learning projects
 Esse é um repositorio onde estão armazenados os meus projetos de data science, machine learning e deep learning
+
 # Projects :
 
  - [Buying_a car_as_a_DataScientist](https://github.com/jmcabreira/Data-Science-Projects/tree/master/Buying_acar_as_a_DataScientist)
