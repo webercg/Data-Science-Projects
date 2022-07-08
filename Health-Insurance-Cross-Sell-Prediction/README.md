@@ -11,6 +11,10 @@
 [Weber Godoi](https://github.com/webercg)    
 
 ### Projeto: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
+- Projeto de classificação de clientes interessados em seguros de veículos
+
+### Live no Youtube
+- [Data Science aplicado a otimização de Cross-Selling de Seguros de Veículos](https://www.youtube.com/watch?v=u38TWKPP_Q4)
 
 ### Ferramentas:
 
