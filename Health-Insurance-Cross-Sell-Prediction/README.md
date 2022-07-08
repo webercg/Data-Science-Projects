@@ -4,19 +4,19 @@
 <img align="right" img class="giphy-gif-img giphy-img-loaded" src="https://media1.giphy.com/media/4mc6Dsn9gyWTS/200w.gif?cid=ecf05e47bhsy1gj453r24ma84o3sdpb5x0l5uys3qfp3il1h&amp;rid=200w.gif&amp;ct=s" width="200" height="200" alt="car accident smoke Sticker" style="background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAABlBMVEUhIiIWFhYoSqvJAAAAGElEQVQY02MAAv7///8PWxqIPwDZw5UGABtgwz2xhFKxAAAAAElFTkSuQmCC&quot;) 0px 0px;">
  </div>
  
-### Componentes:  
-[Alex Graziani](https://github.com/awildt01),    
-[Bruno Freitas](https://github.com/Freitashbruno),  
-[Lucas Chitolina](https://github.com/Chitolina) e     
-[Weber Godoi](https://github.com/webercg)    
-
 ### Projeto: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
 - Projeto de classificação de clientes interessados em seguros de veículos
 
 ### Live no Youtube
 - [Data Science aplicado a otimização de Cross-Selling de Seguros de Veículos](https://www.youtube.com/watch?v=u38TWKPP_Q4)
 
-### Ferramentas:
+### Componentes:  
+[Alex Graziani](https://github.com/awildt01),    
+[Bruno Freitas](https://github.com/Freitashbruno),  
+[Lucas Chitolina](https://github.com/Chitolina) e     
+[Weber Godoi](https://github.com/webercg)    
+
+
 
 ● [Análise Exploratória](https://github.com/webercg/Health-Insurance-Cross-Sell-Prediction/tree/main/EDA) <img align="center" alt="Jupyter" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">  
 ● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)  
@@ -24,7 +24,7 @@
 ● [Modelo Preditivo](https://github.com/webercg/Health-Insurance-Cross-Sell-Prediction/tree/main/API/model)  
 ● [Dashboard BI](https://github.com/webercg/Health-Insurance-Cross-Sell-Prediction/tree/main/DashBoard-PowerBI)  
 ● [Apresentação](https://github.com/webercg/Health-Insurance-Cross-Sell-Prediction/tree/main/apresentacao)  
-
+● [Live no Youtube](https://www.youtube.com/watch?v=u38TWKPP_Q4)
 
 ### Contextualização
 
