@@ -1,4 +1,8 @@
-# E-commerce Olist: Clusterização de clientes e criação de métricas e procedimentos para avaliar e melhorar a experiência de compra de cliente valiosos.
+# Projeto
+- Projeto de clusterização utilizando K-Means
+ - Clusterização de clientes e criação de métricas e procedimentos para avaliar e melhorar a experiência de compra de cliente valiosos.
+
+# Contextualização
 
 Há um risco grande ruptura de clientes que são considerados valiosos para o negócio quando há uma recorrência de experiências negativas comprando na plataforma Olist. Nesse projeto há uma proposta de clusterização de clientes que agregam maior valor para o negócio.
 
@@ -6,7 +10,9 @@ Além disso, a fim de diminuir a probabilidade de ruptura de compras efetuadas p
 
 Entende-se como uma experiência negativa a compra de um produto que não corresponde as expectativas do cliente.
 
+# Repositorio
 
+- Clusterização e analise de dados.ipynb - Notebook para EDA e desenvolvimento em ML
 
 # Objetivos:
 
