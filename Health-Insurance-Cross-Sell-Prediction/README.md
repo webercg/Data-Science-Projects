@@ -101,3 +101,7 @@ Performance e Resultados:
 ● A probabilidade do cliente ter interesse dado que o modelo a classificou como interessada é de 29,41%;
 
 ● O canal de venda que maximiza a probabilidade do cliente aceitar o seguro é sugerido na API.
+
+
+# Stack
+Numpy, Pandas, Seaborn, Matplotlib, Spark, PySpark, Azure Databricks, PowerBI, Streamlit, Flask.
