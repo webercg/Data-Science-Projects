@@ -81,3 +81,5 @@ Obter um modelo com alta revocação e alta precisão para classificação de tr
 - Além disso, o dataset utilizado provém de uma coleta em 48h e não há mais informações sobre os dias em que foram coletados, pode ocorrer uma mudança de comportamento nas transações fraudulentas de acordo com o período do ano (Natal, Carnaval etc) ou com o dia da semana (Finais de Semana e Feriados prolongados). Dessa forma, pode ser necessário retreinar o modelo para contabilizar comportamentos atipicos possívelmente não considerados.
 
 
+# Stack
+Numpy, Pandas, Scikit-Learn, Seaborn, Matplotlib
