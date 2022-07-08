@@ -7,7 +7,7 @@ Esse é um repositorio onde estão armazenados os meus projetos de data science,
 
  - [CreditCard Fraud](https://github.com/webercg/Data-Science-Projects/tree/main/CreditCard%20Fraud)
  - [NLP: Daily-News-for-Stock-Market-Prediction](https://github.com/webercg/NLP---Daily-News-for-Stock-Market-Prediction)
- - [Olist-Ecommerceo](https://github.com/webercg/Data-Science-Projects/tree/main/Olist---Ecommerce)
+ - [Olist-Ecommerce](https://github.com/webercg/Data-Science-Projects/tree/main/Olist---Ecommerce)
  - [Spotify-popularity-predictions](https://github.com/webercg/Data-Science-Projects/tree/main/Spotify-popularity-predictions-TCC-UTFPR)
  - [Agencia de Turismo](https://github.com/webercg/Entrada-de-Turistas)
  - [Health-Insurance-Cross-Sell-Prediction](https://github.com/webercg/Data-Science-Projects/tree/main/Health-Insurance-Cross-Sell-Prediction)
