@@ -1,6 +1,10 @@
 # Detecção de Fraude de cartão de crédito
 
+# Projeto
+- Detecção de fraudes - Classificação
 
+# Repositório
+Deteccao de Fraude + EDA.ipynb - Notebook com EDA, tunagem e seleção de modelos.
 
 # 1 Introdução e Data Source
 
