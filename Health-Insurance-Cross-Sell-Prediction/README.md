@@ -17,7 +17,7 @@
 [Weber Godoi](https://github.com/webercg)    
 
 
-<img align="center" img class="giphy-gif-img giphy-img-loaded" src="https://media1.giphy.com/media/4mc6Dsn9gyWTS/200w.gif?cid=ecf05e47bhsy1gj453r24ma84o3sdpb5x0l5uys3qfp3il1h&amp;rid=200w.gif&amp;ct=s" width="200" height="200" alt="car accident smoke Sticker" style="background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAABlBMVEUhIiIWFhYoSqvJAAAAGElEQVQY02MAAv7///8PWxqIPwDZw5UGABtgwz2xhFKxAAAAAElFTkSuQmCC&quot;) 0px 0px;">
+<img align="center" img class="giphy-gif-img giphy-img-loaded" src="https://github.com/webercg/Data-Science-Projects/blob/main/Health-Insurance-Cross-Sell-Prediction/app-streamlit2.gif" width="200" height="200" alt="car accident smoke Sticker" style="background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAABlBMVEUhIiIWFhYoSqvJAAAAGElEQVQY02MAAv7///8PWxqIPwDZw5UGABtgwz2xhFKxAAAAAElFTkSuQmCC&quot;) 0px 0px;">
 
 
 ● [Análise Exploratória](https://github.com/webercg/Health-Insurance-Cross-Sell-Prediction/tree/main/EDA) <img align="center" alt="Jupyter" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">  
