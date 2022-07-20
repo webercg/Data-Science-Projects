@@ -16,7 +16,7 @@ Os dados são naturalmente desbalanceados, o número de transações fraudulenta
 
 # 2 Objetivos
 
-O objetivo desse projeto é criar um modelo que seja capaz de identificar corretamente transações fraudulentas para que, dessa forma, as operadoras possam  impedir que a transação seja realizada e bloqueá-los como medida de segurança.
+O objetivo desse projeto é criar um modelo que seja capaz de identificar corretamente transações fraudulentas para que, dessa forma, as instituições financeiras possam  impedir que a transação seja realizada e bloqueá-los como medida de segurança.
 
 Obter um modelo com alta revocação e alta precisão para classificação de transações fraudulentas, portanto, é fundamental.
 
