@@ -32,14 +32,8 @@ Obter um modelo com alta revocação e alta precisão para classificação de tr
 
 
 # Resultados
-  5 Modelos foram selecionados:
-  - LGBMClassifier
-  - XGBClassifier, 
-  - RandomForestClassifier, 
-  - DecisionTreeClassifier
-  - LinearSVC. 
   
-  O modelo LGBMClassifier eleito como preditor e apresenta as seguinte performance nos dados de teste:
+  O modelo RandomForest eleito como preditor e apresenta as seguinte performance nos dados de teste:
   
   Revocação classe 1 - Fraudes: 99,70%
   Revocação classe 0 - Transações comuns: 98,77%
