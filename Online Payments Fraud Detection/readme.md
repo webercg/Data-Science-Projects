@@ -35,10 +35,10 @@ Obter um modelo com alta revocação e alta precisão para classificação de tr
   
   O modelo RandomForest eleito como preditor e apresenta as seguinte performance nos dados de teste:
   
-  Revocação classe 1 - Fraudes: 99,70%
-  Revocação classe 0 - Transações comuns: 98,77%
-  Acurácia:  98,97%
-  AUC:  0,9925
+  Revocação classe 1 - Fraudes: 99,70%  
+  Revocação classe 0 - Transações comuns: 98,77%  
+  Acurácia:  98,97%  
+  AUC:  0,9925  
 
 
 # Stack
