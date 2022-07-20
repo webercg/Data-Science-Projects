@@ -29,7 +29,8 @@ Obter um modelo com alta revocação e alta precisão para classificação de tr
 - Amostragem: Realizado uma amostragem com dados de 20% fraudes e 80% transações comuns
 - Taxa de balanceamento e seleção de modelo: Conduzido experimentos com diversos modelos para definir a melhor taxa de balanceamento para identificar as transações fraudulentas e selecionar o modelo a partir da performance dos modelos testados.
 - Seleção de features: com o modelo selecionado, analizou-se a correlação da variável entre si e com a variável alvo e foi conduzido experimentos com o modelo para definir o melhor conjunto de features
-
+- Tunning
+- Avaliação do modelo: Avaliado performance sobre dados de testes e sobre todo o conjunto de dados para verificar se o modelo é capaz de aprender todos os exemplos mesmo após a amostragem e o rebalanceamento de classes
 
 # Resultados
   
