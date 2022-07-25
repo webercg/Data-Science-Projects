@@ -9,6 +9,7 @@ Esse é um repositorio onde estão armazenados os meus projetos de data science,
  - [Detecção de Fraudes em sistemas de pagamento online](https://github.com/webercg/Data-Science-Projects/tree/main/Online%20Payments%20Fraud%20Detection)
  - [NLP: Processamento de noticias para predição do valor de ações da Petrobras](https://github.com/webercg/NLP---Daily-News-for-Stock-Market-Prediction)
  - [CRM Aplicado a E-Commerces - Olist](https://github.com/webercg/Data-Science-Projects/tree/main/Olist---Ecommerce)
+ - [Predição de Churn em clientes de bancos](https://github.com/webercg/Data-Science-Projects/tree/main/Predicting%20Churn%20for%20Bank%20Customers)
  - [Detecção de musicas virais do Spotify baseado em características musicais](https://github.com/webercg/Data-Science-Projects/tree/main/Spotify-popularity-predictions-TCC-UTFPR)
  - [Simulação de Agencia de Turismo em banco de dados](https://github.com/webercg/Entrada-de-Turistas)
  - [Otimização de Cross-Selling de Seguros de Veículos](https://github.com/webercg/Data-Science-Projects/tree/main/Health-Insurance-Cross-Sell-Prediction)
