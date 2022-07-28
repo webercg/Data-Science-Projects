@@ -42,16 +42,16 @@ As seguintes etapas foram automatizadas no scripts e testadas diversas combinaç
 
 # Resultados EDA:
 
-H1: Clientes ativos tendem a não dar churn - VERDADEIRO
-H2: Clientes sem cartão de crédito tem maior predisposição a dar churn - VERDADEIRO
-H3: O local de residência de clientes influencia no comportamento de churn - VERDADEIRO
-H4: Clientes com menor quantidade de itens consumidos possuem maior probabilidade de dar churn - FALSO
-H5: O Genero dos clientes influencia no comportamento de churn - VERDADEIRO
-H6: O score financeiro do cliente influencia diretamente na probabilidade de dar churn - FALSO
-H7: Clientes com idade mais elevada tem maior probabilidade de churn - VERDADEIRO
-H8: Clientes que possuem menos bens tem maior probabilidade de churn - FALSO
-H9: Clientes com menor valor em conta tem maior probabilidade de churn - FALSO
-H10: Clientes com menores salários tem maior probabilidade de Churn - FALSO
+H1: Clientes ativos tendem a não dar churn - VERDADEIRO  
+H2: Clientes sem cartão de crédito tem maior predisposição a dar churn - VERDADEIRO  
+H3: O local de residência de clientes influencia no comportamento de churn - VERDADEIRO  
+H4: Clientes com menor quantidade de itens consumidos possuem maior probabilidade de dar churn - FALSO  
+H5: O Genero dos clientes influencia no comportamento de churn - VERDADEIRO  
+H6: O score financeiro do cliente influencia diretamente na probabilidade de dar churn - FALSO  
+H7: Clientes com idade mais elevada tem maior probabilidade de churn - VERDADEIRO  
+H8: Clientes que possuem menos bens tem maior probabilidade de churn - FALSO  
+H9: Clientes com menor valor em conta tem maior probabilidade de churn - FALSO  
+H10: Clientes com menores salários tem maior probabilidade de Churn - FALSO  
 
 # Resultados Modelo Preditivo
 
