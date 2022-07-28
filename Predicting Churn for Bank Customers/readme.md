@@ -1,53 +1,53 @@
-# Detecção de Fraudes em sistemas de pagamento online
+# Predição de Churn em clientes de bancos
 
 # Projeto
-- Detecção de fraudes - Classificação
+- Detecção de Churn - Classificação
 
 # Repositório
-- Notebook.ipynb - Notebook com EDA, limpeza, amostragem, balanceamento, pré-processamento, seleção de modelos, seleção de features, tunagem e métricas de modelos
+-Churn Predictions for Bank Customers-V2.ipynb - Notebook com EDA, limpeza, amostragem, balanceamento, pré-processamento, seleção de modelos, seleção de features, tunagem e métricas de modelos
 
-# 1 Introdução e Data Source
+# 1 Introdução 
 
-Dados de transações de pagamentos, debitos, saques, depósitos e transferencias foram disponibilizados em um dataset no Kaggle. O dataset compõe dados de tipo de pagamento, saldo antes e após da transação da conta de origem e destino e rótulos de operações comuns (rótulo = 0) e fraudulentas (rótulo = 1)
+Dados de clientes de um banco foram disponibilizados em um dataset no Kaggle. O dataset compõe dados de score de clientes, país de origem, idade, genero, posses, saldo em conta, numero de produtos adquiridos, salario estimado além de dados booleanos se possuem cartão de crédito e é membro ativo. Cada cliente foi rotulado em clientes que deram churn (rótulo = 1) e não deram churn (rótulo = 0)
 
-https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
+https://www.kaggle.com/datasets/adammaus/predicting-churn-for-bank-customers
 
-Os dados são naturalmente desbalanceados, o número de transações fraudulentas registrados corresponde à apenas 1.29% das transações. (8.213 transações fraudulentas e 6.354.407 transações comuns).
+Os dados são naturalmente desbalanceados, o número de clientes que deram churn registrados corresponde à apenas 26% da base. 
 
 # 2 Objetivos
 
-O objetivo desse projeto é criar um modelo que seja capaz de identificar corretamente transações fraudulentas para que, dessa forma, as instituições financeiras possam  impedir que a transação seja realizada e bloqueá-los como medida de segurança.
+O objetivo desse projeto é criar um modelo que seja capaz de identificar corretamente o perfil de clientes que dão Churn para que, dessa forma, a equipe de marketing possa trabalhar em uma campanha de fidelização, ou fornecer incentivos a permanência desses clientes
 
-Obter um modelo com alta revocação e alta precisão para classificação de transações fraudulentas, portanto, é fundamental.
-
-# Em andamento: Construção arquitetura (Kafka - streaming de dados) para consumo do modelo simulando uma transação real.
 
 # 3 Metodologia
 
-- Análise Exploratória: Uma analise exploratória dos dados foi conduzida no próprio notebook para traçar o perfil das transações fraudulentas.
-- Pré-Processamento: OneHotEncoding no tipo de transação, Normalização em dados numéricos
+- Análise Exploratória: Uma analise exploratória dos dados foi conduzida no próprio notebook para traçar o perfil de clientes propensos a churn
+- Limpeza: Etapas inicias de limpeza para remoção de ruidos
 - Amostragem: Realizado uma amostragem com dados de 20% fraudes e 80% transações comuns
-- Taxa de balanceamento e seleção de modelo: Conduzido experimentos com diversos modelos para definir a melhor taxa de balanceamento para identificar as transações fraudulentas e selecionar o modelo a partir da performance dos modelos testados.
-- Seleção de features: com o modelo selecionado, analizou-se a correlação da variável entre si e com a variável alvo e foi conduzido experimentos com o modelo para definir o melhor conjunto de features
-- Tunning
-- Avaliação do modelo: Avaliado performance sobre dados de testes e sobre todo o conjunto de dados para verificar se o modelo é capaz de aprender todos os exemplos mesmo após a amostragem e o rebalanceamento de classes
+- Prototipação: Realizado balanceamento experimentais e uma primeira etapa de prototipação com a biblioteca LazyPredict para determinar os modelos candidatos
+
+As seguintes etapas foram automatizadas no scripts e testadas diversas combinações para chegar ao melhor modelo:
+- Determinação do fator de balanceamento nos dados de treino  
+- Tipo de Encode: LabelEncoder, OneHotEncoder, TargetEncoder  
+- Determinação da quantidade de features  
+- Tunning e determinação do melhor conjunto de hiperparâmetros  
+- Determinação do melhor conjunto de features  
+- Testes com pipelines com normalização  
+- Testes com pipelines sem normalização  
+- Testes com pipelines com seleção aleatória de features  
+- Testes com pipelines com seleção de features por meio da função SelectFromModel do scikit-learn  
+
 
 # Resultados
   
-  O modelo RandomForest eleito como preditor e apresenta as seguinte performance nos dados de teste:
+  O modelo LGBM foi eleito como melhor preditor e apresenta as seguinte performance nos dados de validação:
   
-  Revocação classe 1 - Fraudes: 99,07%  
-  Revocação classe 0 - Transações comuns: 98,13%  
-  Acurácia:  98,50%  
-  AUC:  0,9860  
+  Revocação classe 1 - Churn: 70,02%  
+  Revocação classe 0 - Clientes que nao deram churn: 86,44%  
+  Acurácia: 83,31%  
+  AUC:  0,7823  
 
-O modelo apresenta as seguinte performance sobre a totalidade dos dados:
-  
-  Revocação classe 1 - Fraudes: 99,71%  
-  Revocação classe 0 - Transações comuns: 98,77%  
-  Acurácia:  98,97%  
-  AUC:  0,9925  
 
 
 # Stack
-Numpy, Pandas, Scikit-Learn, Matplotlib
+Numpy, Pandas, Scikit-Learn, Matplotlib, Seaborn, Lazypredict,
