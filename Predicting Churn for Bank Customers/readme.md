@@ -21,16 +21,13 @@ O objetivo desse projeto é criar um modelo que seja capaz de identificar corret
 
 # 3 Metodologia
 
-- Análise Exploratória: Uma analise exploratória dos dados foi conduzida no próprio notebook para traçar o perfil de clientes propensos a churn
-
 ![](Pipeline.png)
 
+- Análise Exploratória: Uma analise exploratória dos dados foi conduzida no próprio notebook para traçar o perfil de clientes propensos a churn
 - Limpeza: Etapas inicias de limpeza para remoção de ruidos
 - Amostragem: Realizado uma amostragem com dados de 20% fraudes e 80% transações comuns
 - Aplicação de Encoders: LabelEncoder, OneHotEncoder, TargetEncoder  
 - Prototipação: Realizado balanceamento experimentais e uma primeira etapa de prototipação com a biblioteca LazyPredict para determinar os modelos candidatos
-
-![](Pipeline.png)
 
 As seguintes etapas foram automatizadas no scripts e testadas diversas combinações para chegar ao melhor modelo conforme o esquema acima:
 - Determinação do fator de balanceamento nos dados de treino  
