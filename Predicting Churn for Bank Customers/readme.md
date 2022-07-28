@@ -26,7 +26,9 @@ O objetivo desse projeto é criar um modelo que seja capaz de identificar corret
 - Amostragem: Realizado uma amostragem com dados de 20% fraudes e 80% transações comuns
 - Prototipação: Realizado balanceamento experimentais e uma primeira etapa de prototipação com a biblioteca LazyPredict para determinar os modelos candidatos
 
-As seguintes etapas foram automatizadas no scripts e testadas diversas combinações para chegar ao melhor modelo:
+![](Pipeline.png)
+
+As seguintes etapas foram automatizadas no scripts e testadas diversas combinações para chegar ao melhor modelo conforme o esquema acima:
 - Determinação do fator de balanceamento nos dados de treino  
 - Tipo de Encode: LabelEncoder, OneHotEncoder, TargetEncoder  
 - Determinação da quantidade de features  
