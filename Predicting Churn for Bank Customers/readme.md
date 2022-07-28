@@ -40,9 +40,21 @@ As seguintes etapas foram automatizadas no scripts e testadas diversas combinaç
 - Testes com pipelines com seleção aleatória de features  
 - Testes com pipelines com seleção de features por meio da função SelectFromModel do scikit-learn  
 
+# Resultados EDA:
 
-# Resultados
-  
+H1: Clientes ativos tendem a não dar churn - VERDADEIRO
+H2: Clientes sem cartão de crédito tem maior predisposição a dar churn - VERDADEIRO
+H3: O local de residência de clientes influencia no comportamento de churn - VERDADEIRO
+H4: Clientes com menor quantidade de itens consumidos possuem maior probabilidade de dar churn - FALSO
+H5: O Genero dos clientes influencia no comportamento de churn - VERDADEIRO
+H6: O score financeiro do cliente influencia diretamente na probabilidade de dar churn - FALSO
+H7: Clientes com idade mais elevada tem maior probabilidade de churn - VERDADEIRO
+H8: Clientes que possuem menos bens tem maior probabilidade de churn - FALSO
+H9: Clientes com menor valor em conta tem maior probabilidade de churn - FALSO
+H10: Clientes com menores salários tem maior probabilidade de Churn - FALSO
+
+# Resultados Modelo Preditivo
+
   O modelo LGBM foi eleito como melhor preditor e apresenta as seguinte performance nos dados de validação:
   
   Revocação classe 1 - Churn: 70,02%  
@@ -53,4 +65,4 @@ As seguintes etapas foram automatizadas no scripts e testadas diversas combinaç
 
 
 # Stack
-Numpy, Pandas, Scikit-Learn, Matplotlib, Seaborn, Lazypredict
+Numpy, Pandas, Scikit-Learn, Matplotlib, Seaborn, Lazypredict.
