@@ -23,7 +23,7 @@ O objetivo desse projeto é criar um modelo que seja capaz de identificar corret
 
 - Análise Exploratória: Uma analise exploratória dos dados foi conduzida no próprio notebook para traçar o perfil de clientes propensos a churn
 
-![](Data Preparation.png)
+![](Pipeline.png)
 
 - Limpeza: Etapas inicias de limpeza para remoção de ruidos
 - Amostragem: Realizado uma amostragem com dados de 20% fraudes e 80% transações comuns
