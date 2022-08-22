@@ -6,6 +6,9 @@
 # Repositório
 - Deteccao de Fraude + EDA.ipynb - Notebook com EDA, tunagem e seleção de modelos.
 
+# Repositório V 2.0 Projeto
+- Notebook Projeto V 2.0: [V2.0 do Projeto](https://github.com/webercg/Data-Science-Projects/blob/main/CreditCard%20Fraud/Deteccao%20de%20Fraude%20-%20V%202.0%20.ipynb)
+
 # 1 Introdução e Data Source
 
 Dados de transações de cartão de créditos foram capturadas num período de 48h. A fim de anonimizar e proteger os clientes, aplicou-se a técnica de PCA (Principal Component Analysis) que reduziu o número de features para 30 no total, todas adotando um formato numérico.
