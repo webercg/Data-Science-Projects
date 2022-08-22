@@ -9,6 +9,8 @@
 # Repositório V 2.0 Projeto
 - Notebook Projeto V 2.0: [V2.0 do Projeto](https://github.com/webercg/Data-Science-Projects/blob/main/CreditCard%20Fraud/Deteccao%20de%20Fraude%20-%20V%202.0%20.ipynb)
 
+O projeto passou por uma atualização aplicando-se boas práticas para validação do modelos, evitar data leakage e melhorar a performance em produção.
+
 # 1 Introdução e Data Source
 
 Dados de transações de cartão de créditos foram capturadas num período de 48h. A fim de anonimizar e proteger os clientes, aplicou-se a técnica de PCA (Principal Component Analysis) que reduziu o número de features para 30 no total, todas adotando um formato numérico.
@@ -74,14 +76,20 @@ Obter um modelo com alta revocação e alta precisão para classificação de tr
   
   O modelo LGBMClassifier eleito como preditor e apresenta as seguinte performance nos dados de teste:
   
-  Revocação classe 1 - Fraudes: 96,13%
-  Revocação classe 0 - Transações comuns: 98,33%
-  Acurácia:  98,33%
-  AUC:  0,9723
+  Revocação classe 1 - Fraudes: 89,03%
+  Revocação classe 0 - Transações comuns: 99,54%
+  Acurácia:  99,54%
+  AUC:  0,9429
+
+
+## Características e curiosidades do projeto
+- Foi criado uma função de custo relacionados aos falsos positivos e falsos negativos para orientar a escolha do melhor modelo
+- O modelo prioriza o acerto de 2843 (+1) transações não fraudulentas em detrimento de 165 fraudes devido aos custos e a proporção de ocorrencias de transações fraudulentas.
+- Isso equivale a dizer que o modelo prioriza um ganho de 1% na taxa de acerto de não fraudes em detrimento de 33% na taxa de acertos de fraudes.
+- Recomendação: Alterar a função de custo incorporando uma função de probabilidade de churn entre clientes vitimas de fraudes e não vítimas assim como os custos relacionados ao churn.
 
 
 # GAP e possíveis melhorias
-
 
 - Há poucos exemplos de transações fraudulentas (492), embora tenha-se validado as métricas com os dados de treino, é possível que ao colocar o modelo em produção haja uma queda na revocação sendo necessário o retreinamento com novos exemplos de transações fraudulentas. 
 
