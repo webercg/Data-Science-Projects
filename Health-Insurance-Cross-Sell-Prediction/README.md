@@ -54,30 +54,30 @@ Construir um modelo para prever se um cliente estaria interessado em seguro de v
 
 # Desafios.
 
-Classificação de clientes de seguro de saúde que podem se interessar por seguros de veículos.  
+1) Classificação de clientes de seguro de saúde que podem se interessar por seguros de veículos.  
 
-Utilização da função de custo como critério de seleção de modelos de Machine Learning, em detrimento das métricas convencionais de acurácia, precisão, revocação, ROC, AUC, F1-score  
+2) Utilização da função de custo como critério de seleção de modelos de Machine Learning, em detrimento das métricas convencionais de acurácia, precisão, revocação, ROC, AUC, F1-score  
 
-Simular um ambiente de produção em cloud (DataBricks) integrado a um banco de dados relacional (Azure) para leitura de dados em batch, consumo de modelo de machine learning e escrita de predições no banco de dados.  
+3) Simular um ambiente de produção em cloud (DataBricks) integrado a um banco de dados relacional (Azure) para leitura de dados em batch, consumo de modelo de machine learning e escrita de predições no banco de dados.  
 
-Lidar com base de dados desbalanceados.  
+4) Lidar com base de dados desbalanceados.  
 
 
 # Conclusões
 
-● O maior desconto que poderia ser dado para evitar perdar e agarriar mais clientes é de 2.67%.  
-● Mesmo após a oferta de 2% de desconto nenhum cliente da base de clientes sem interesse passaria a ter interesse, sendo, portanto, a oferta de desconto geradora de prejuízos.  
-● Ao realizar o comparativo das operações utilizando-se Machine Learning e sem utilizar há um ganho total de 4.3 Mi com a implementação de Machine Learning.  
-● Isso equivale a um ganho de 11.36 reais por cliente do seguro de saúde.  
+- O maior desconto que poderia ser dado para evitar perdar e agarriar mais clientes é de 2.67%.  
+-  Mesmo após a oferta de 2% de desconto nenhum cliente da base de clientes sem interesse passaria a ter interesse, sendo, portanto, a oferta de desconto geradora de prejuízos.
+- O canal de venda que maximiza a probabilidade do cliente aceitar o seguro é sugerido na API.  
+- Ao realizar o comparativo das operações utilizando-se Machine Learning e sem utilizar há um ganho total de 4.3 Mi com a implementação de Machine Learning.  
+- Isso equivale a um ganho de 11.36 reais por cliente do seguro de saúde.  
 
 
 A função de custo elaborada de acordo com as regras de negocio selecionou um modelo que:
 
-● Acerta 97,76% de clientes interessados (Recall classe 1)  
-● Acerta 58,78% de CLients não interessados (Recall classe 0)  
-● AUC: 0.7827   
+-  Acerta 97,76% de clientes interessados (Recall classe 1)  
+-  Acerta 58,78% de CLients não interessados (Recall classe 0)  
+-  AUC: 0.7827   
 
-● O canal de venda que maximiza a probabilidade do cliente aceitar o seguro é sugerido na API.
 
 
 # Stack
