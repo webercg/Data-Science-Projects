@@ -65,18 +65,25 @@ Construir um modelo para prever se um cliente estaria interessado em seguro de v
 
 # Conclusões
 
-- O maior desconto que poderia ser dado para evitar perdar e agarriar mais clientes é de 2.67%.  
--  Mesmo após a oferta de 2% de desconto nenhum cliente da base de clientes sem interesse passaria a ter interesse, sendo, portanto, a oferta de desconto geradora de prejuízos.
-- O canal de venda que maximiza a probabilidade do cliente aceitar o seguro é sugerido na API.  
-- Ao realizar o comparativo das operações utilizando-se Machine Learning e sem utilizar há um ganho total de 4.3 Mi com a implementação de Machine Learning.  
-- Isso equivale a um ganho de 11.36 reais por cliente do seguro de saúde.  
+## Conclusões gerais e ganhos financeiros
+
+- O maior desconto que poderia ser dado para evitar perdar e agarriar mais clientes é de 2.67%.
+- Mesmo após a oferta de 2% de desconto nenhum cliente da base de clientes sem interesse passaria a ter interesse, sendo, portanto, a oferta de desconto geradora de prejuízos.
+- Ao realizar o comparativo das operações utilizando-se Machine Learning e sem utilizar há um ganho total de 4.3 Mi com a implementação de Machine Learning.
+- Isso equivale a um ganho de 11.36 reais por cliente do seguro de saúde.
 
 
-A função de custo elaborada de acordo com as regras de negocio selecionou um modelo que:
+## A função de custo elaborada de acordo com as regras de negocio selecionou um modelo que:
 
--  Acerta 97,76% de clientes interessados (Recall classe 1)  
--  Acerta 58,78% de CLients não interessados (Recall classe 0)  
--  AUC: 0.7827   
+- Acerta 97,76% de clientes interessados (Recall classe 1)
+- Acerta 58,78% de CLients não interessados (Recall classe 0)
+- AUC: 0.7827 
+
+
+## Características do modelo:
+
+- Dado o desbalanceamento das classes e os custos o modelo priorizará o acerto de 1 cliente interessado em detrimento de 107 clientes não interessados.
+- Isso equivale a dizer que o modelo priorizará no tradeoff um ganho de +23% (+1) na taxa de acerto de pessoas interessadas em detrimento de -1% na taxa de acertos de pessoas sem interesse.
 
 
 
