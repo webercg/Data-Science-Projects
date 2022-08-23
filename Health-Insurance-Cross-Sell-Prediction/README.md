@@ -4,13 +4,13 @@
 <img align="right" img class="giphy-gif-img giphy-img-loaded" src="https://media1.giphy.com/media/4mc6Dsn9gyWTS/200w.gif?cid=ecf05e47bhsy1gj453r24ma84o3sdpb5x0l5uys3qfp3il1h&amp;rid=200w.gif&amp;ct=s" width="200" height="200" alt="car accident smoke Sticker" style="background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAABlBMVEUhIiIWFhYoSqvJAAAAGElEQVQY02MAAv7///8PWxqIPwDZw5UGABtgwz2xhFKxAAAAAElFTkSuQmCC&quot;) 0px 0px;">
  </div>
  
-### Projeto: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
+# Projeto: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
 - Projeto de classificação de clientes interessados em seguros de veículos
 
-### Live no Youtube
+# Live no Youtube
 - [Data Science aplicado a otimização de Cross-Selling de Seguros de Veículos](https://www.youtube.com/watch?v=u38TWKPP_Q4)
 
-### Colaboradores:  
+# Colaboradores:  
 [Alex Graziani](https://github.com/awildt01),    
 [Bruno Freitas](https://github.com/Freitashbruno),  
 [Lucas Chitolina](https://github.com/Chitolina) e     
@@ -19,7 +19,7 @@
 
 <img align="center" img class="giphy-gif-img giphy-img-loaded" src="https://github.com/webercg/Data-Science-Projects/blob/main/Health-Insurance-Cross-Sell-Prediction/app-streamlit2.gif" width="800" height="600" alt="car accident smoke Sticker" style="background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAABlBMVEUhIiIWFhYoSqvJAAAAGElEQVQY02MAAv7///8PWxqIPwDZw5UGABtgwz2xhFKxAAAAAElFTkSuQmCC&quot;) 0px 0px;">
 
-### Repositórios v1.0 Projeto
+# Repositórios v1.0 Projeto
 ● [Análise Exploratória](https://github.com/webercg/Health-Insurance-Cross-Sell-Prediction/tree/main/EDA) <img align="center" alt="Jupyter" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">  
 ● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)  
 ● [Notebooks na núvem - Spark](https://github.com/webercg/Data-Science-Projects/tree/main/Health-Insurance-Cross-Sell-Prediction/Engenharia%20de%20dados/pyspark)  
@@ -28,18 +28,18 @@
 ● [Apresentação](https://github.com/webercg/Health-Insurance-Cross-Sell-Prediction/tree/main/apresentacao)  
 ● [Live no Youtube](https://www.youtube.com/watch?v=u38TWKPP_Q4)
 
-### Repositórios v2.0 Projeto
+# Repositórios v2.0 Projeto
 ● [Notebook com modelagem da V2.0 Projeto](https://github.com/webercg/Data-Science-Projects/blob/main/Health-Insurance-Cross-Sell-Prediction/Cross-Selling%20V2.0.ipynb) 
 
 
-### Contextualização e regras de negócio
+# Contextualização e regras de negócio
 
 Nosso cliente é uma seguradora que forneceu seguro de saúde para seus clientes, agora eles precisam de sua ajuda na construção de um modelo para prever se os segurados (clientes) do ano passado também terão interesse no seguro de veículos fornecido pela empresa.
 
 Construir um modelo para prever se um cliente estaria interessado em seguro de veículo é extremamente útil para a empresa, pois ela pode planejar adequadamente sua estratégia de comunicação para alcançar esses clientes e otimizar seu modelo de negócios e receita. Agora, para prever se o cliente estaria interessado em seguro de veículo, você tem informações sobre dados demográficos (gênero, idade, tipo de código de região), veículos (idade do veículo, danos), apólice (premium, canal de fornecimento) etc.
 
 
-### Objetivos:
+# Objetivos:
 
 1) Produzir um modelo preditivo para classificação de potenciais clientes a firmar seguro de veículo com a companhia.
 
@@ -52,7 +52,7 @@ Construir um modelo para prever se um cliente estaria interessado em seguro de v
 5) Deploy no StreamLit para consumo do modelo de Machine Learning
 
 
-### Desafios.
+# Desafios.
 
 Classificação de clientes de seguro de saúde que podem se interessar por seguros de veículos.
 
@@ -63,7 +63,7 @@ Simular um ambiente de produção em cloud (DataBricks) integrado a um banco de 
 Lidar com base de dados desbalanceados.
 
 
-### Conclusões
+# Conclusões
 
 ● O maior desconto que poderia ser dado para evitar perdar e agarriar mais clientes é de 2.67%.
 ● Mesmo após a oferta de 2% de desconto nenhum cliente da base de clientes sem interesse passaria a ter interesse, sendo, portanto, a oferta de desconto geradora de prejuízos.
