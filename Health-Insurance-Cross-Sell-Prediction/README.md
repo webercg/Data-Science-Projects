@@ -28,8 +28,8 @@
 ● [Apresentação](https://github.com/webercg/Health-Insurance-Cross-Sell-Prediction/tree/main/apresentacao)  
 ● [Live no Youtube](https://www.youtube.com/watch?v=u38TWKPP_Q4)
 
-# Repositórios v2.0 Projeto
-● [Notebook com modelagem da V2.0 Projeto](https://github.com/webercg/Data-Science-Projects/blob/main/Health-Insurance-Cross-Sell-Prediction/Cross-Selling%20V2.0.ipynb) 
+# Repositórios v3.0 Projeto
+● [Notebook com modelagem da V3.0 Projeto](https://github.com/webercg/Data-Science-Projects/blob/main/Health-Insurance-Cross-Sell-Prediction/Cross-Selling%20V3.0.ipynb) 
 
 
 # Contextualização e regras de negócio
