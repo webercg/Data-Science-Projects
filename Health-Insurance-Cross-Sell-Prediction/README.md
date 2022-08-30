@@ -34,9 +34,9 @@
 
 # Contextualização e regras de negócio
 
-Nosso cliente é uma seguradora que forneceu seguro de saúde para seus clientes, agora eles precisam de sua ajuda na construção de um modelo para prever se os segurados (clientes) do ano passado também terão interesse no seguro de veículos fornecido pela empresa.
+Uma seguradora de saúde, visando expandir seu portfólio de produtos ao ofertar também seguros de veículos realizou uma pesquisa de opinião com seus clientes para identificar o interesse pelo novo seguro. A seguradora, a partir das respostas precisa identificar padrões no perfil de clientes interessados e traçar as estratégias mais assertivas na conversão de novos clientes.
 
-Construir um modelo para prever se um cliente estaria interessado em seguro de veículo é extremamente útil para a empresa, pois ela pode planejar adequadamente sua estratégia de comunicação para alcançar esses clientes e otimizar seu modelo de negócios e receita. Agora, para prever se o cliente estaria interessado em seguro de veículo, você tem informações sobre dados demográficos (gênero, idade, tipo de código de região), veículos (idade do veículo, danos), apólice (premium, canal de fornecimento) etc.
+Construir um modelo para prever se um cliente estaria interessado em seguro de veículo é extremamente útil para a empresa, pois ela pode planejar adequadamente sua estratégia de comunicação para alcançar esses clientes e otimizar seu modelo de negócios e receita. Para construção da maquina preditiva é elencado dados dados demográficos (gênero, idade, tipo de código de região), informações sobre o veículo (idade do veículo, danos), e características da apólice (premium, canal de fornecimento).
 
 
 # Objetivos:
@@ -45,46 +45,36 @@ Construir um modelo para prever se um cliente estaria interessado em seguro de v
 
 2) Avaliar o impacto do Canal de Vendas sobre o interesse de clientes e inferir o Canal de Venda que maximiza a probabilidade de clientes adquirirem o seguro de veículos
 
-3) Avaliar a quantidade de pessoas que terão interesse no seguro de veículos após a oferta de desconto no seguro de saúde.
+3) Avaliar os possíveis ganhos com a conversão de clientes de seguros de veículos que possam adquirí-lo após oferta de descontos no seguro de saúde.
 
 4) Modelar uma função de custo considerando as regras de negócio para selecão do melhor modelo
 
 5) Deploy no StreamLit para consumo do modelo de Machine Learning
 
 
-# Desafios.
 
-1) Classificação de clientes de seguro de saúde que podem se interessar por seguros de veículos.  
-
-2) Utilização da função de custo como critério de seleção de modelos de Machine Learning, em detrimento das métricas convencionais de acurácia, precisão, revocação, ROC, AUC, F1-score  
-
-3) Simular um ambiente de produção em cloud (DataBricks) integrado a um banco de dados relacional (Azure) para leitura de dados em batch, consumo de modelo de machine learning e escrita de predições no banco de dados.  
-
-4) Lidar com base de dados desbalanceados.  
-
-
-# Conclusões
+# Resultados
 
 ## Conclusões gerais e ganhos financeiros
+- O maior desconto que poderia ser dado para evitar perdar e agarriar mais clientes é de 30.68%.
+- Ao realizar o comparativo das operações utilizando-se Machine Learning há um ganho total de 4.2 Mi com a implementação do modelo.
+- Isso equivale a um ganho de 11.10 reais por cliente do seguro de saúde.
 
-- O maior desconto que poderia ser dado para evitar perdar e agarriar mais clientes é de 2.67%.
-- Mesmo após a oferta de 2% de desconto nenhum cliente da base de clientes sem interesse passaria a ter interesse, sendo, portanto, a oferta de desconto geradora de prejuízos.
-- Ao realizar o comparativo das operações utilizando-se Machine Learning e sem utilizar há um ganho total de 4.3 Mi com a implementação de Machine Learning.
-- Isso equivale a um ganho de 11.36 reais por cliente do seguro de saúde.
+## Analise desconto vs interesse pelo seguro
+- Não foi realizada uma análise do desconto sobre o interesse de clientes. Na prática, o efeito de ofertar um desconto aos clientes, fomenta um sentimento de escassez na oferta do seguro de veículo. Esse comportamento de escassez não é aprendido pela maquina preditiva, ao optarmos por alimentar a base com um valor menor no seguro de saúde, o modelo de machine learning aplicaria apenas os padrões aprendidos nos dados, portanto, faria a relação direta com o poder aquisitivo do cliente vs interesse por outro seguro, enviesando toda a análise.
 
-
-## A função de custo elaborada de acordo com as regras de negocio selecionou um modelo que:
-
-- Acerta 97,76% de clientes interessados (Recall classe 1)
-- Acerta 58,78% de CLients não interessados (Recall classe 0)
-- AUC: 0.7827 
+## Analise canal de venda vs interesse pelo seguro
+- Na v1.0 desse projeto o canal de venda compunha o conjunto de features do modelo final, nesse modelo não há como inferir, uma vez que essa feature não foi selecionada. A probabilidade de cada cliente adquirir o seguro era calculada por meio do método predict_proba() do RandomForest, essas probabilidades eram calculadas para todos os canais de vendas a cada predição realizada pelo usuário final no streamlit. Dessa forma, o usuário poderia escolher o melhor canal de vendas para abordar o cliente.
 
 
-## Características do modelo:
+## Regras de negócio aplicada a modelagem:
+- Dado o desbalanceamento das classes e os custos o modelo priorizará o acerto de 1 cliente interessado em detrimento de 40 clientes não interessados.
+- Isso equivale a dizer que o modelo priorizará no tradeoff um ganho acima de +8.5% na taxa de acerto de pessoas interessadas em detrimento de uma taxa de até -1% na taxa de acertos de pessoas sem interesse, ou um ganho acima de +1% na taxa de acerto de pessoas sem interesse em detrimento de uma taxa de até -8.5% de pessoas interessadas.
 
-- Dado o desbalanceamento das classes e os custos o modelo priorizará o acerto de 1 cliente interessado em detrimento de 107 clientes não interessados.
-- Isso equivale a dizer que o modelo priorizará no tradeoff um ganho de +23% (+1) na taxa de acerto de pessoas interessadas em detrimento de -1% na taxa de acertos de pessoas sem interesse.
-
+## Performance do modelo
+- Acerta 99,69% de clientes interessados (Recall classe 1)
+- Acerta 51,86% de Clients não interessados (Recall classe 0)
+- AUC: 0.7577 
 
 
 # Stack
