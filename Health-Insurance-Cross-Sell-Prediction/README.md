@@ -30,6 +30,7 @@
 
 # Repositórios v3.0 Projeto
 ● [Notebook com modelagem da V3.0 Projeto](https://github.com/webercg/Data-Science-Projects/blob/main/Health-Insurance-Cross-Sell-Prediction/Cross-Selling%20V3.0.ipynb) 
+● [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMmM3YTVmNmMtZDA3My00Y2QwLThhYjgtODM5NmUxY2MyNjU0IiwidCI6Ijk1OTBkMzgwLThjZGMtNDgyMy1iY2UyLTlhZmIwNWJmNmEyOCJ9)
 
 
 # Contextualização e regras de negócio
