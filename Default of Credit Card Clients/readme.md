@@ -2,7 +2,7 @@
 
 Será desenvolvido os seguintes tópicos:
 
-- Responder a pergunta de negócio: Quais seriam os ganhos financeiros ao identificar os clientes com alta probabilidade de indimplência?
+- Responder a pergunta de negócio: Quais seriam os ganhos financeiros com a implementação do modelo que identifica clientes com alta probabilidade de indimplência?
 - Tendo em mãos as probabilidades de inadimplência (Logistic Regression / Modelos Arvores): Montar o quadro com dez percentis e avaliar o threshold da probabilidade de operação para aprovação de crédito;
 - Tendo em mãos as probabilidades de inadimplência (Logistic Regression / Modelos Arvores): Criar um score de 0 á 1000 de risco de crédito.
 
