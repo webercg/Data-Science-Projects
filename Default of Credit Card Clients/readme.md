@@ -12,12 +12,12 @@ Será desenvolvido os seguintes tópicos:
 ## TESTES DE HIPOTESE A/B - Técnica Bootstrap
 
 
-H1: A taxa de inadimplência de clientes do sexo Masculino é maior em comparação aos clientes do sexo Feminino - VERDADEIRO
-H2: A taxa de inadimplência de clientes que tem apenas o ensino médio completo é maior em comparação aos outros clientes - VERDADEIRO
-H3: A taxa de inadimplência de clientes com estado civil "Outros" é maior em comparação aos outros clientes - FALSO
-H4: A taxa de inadimplência de clientes com estado civil "Casado" é maior em comparação aos outros clientes - VERDADEIRO
-H5: A taxa de inadimplência de clientes que atrasaram a fatura em 2 meses é maior em comparação aos clientes que não atrasaram - VERDADEIRO
-H6: A taxa de inadimplência de clientes que pagaram o total da fatura e é maior em comparação aos clientes que pagaram parcialmente - VERDADEIRO
+H1: A taxa de inadimplência de clientes do sexo Masculino é maior em comparação aos clientes do sexo Feminino - VERDADEIRO  
+H2: A taxa de inadimplência de clientes que tem apenas o ensino médio completo é maior em comparação aos outros clientes - VERDADEIRO  
+H3: A taxa de inadimplência de clientes com estado civil "Outros" é maior em comparação aos outros clientes - FALSO  
+H4: A taxa de inadimplência de clientes com estado civil "Casado" é maior em comparação aos outros clientes - VERDADEIRO  
+H5: A taxa de inadimplência de clientes que atrasaram a fatura em 2 meses é maior em comparação aos clientes que não atrasaram - VERDADEIRO  
+H6: A taxa de inadimplência de clientes que pagaram o total da fatura e é maior em comparação aos clientes que pagaram parcialmente - VERDADEIRO  
 
 
 ## MODELOS
