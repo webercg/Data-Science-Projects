@@ -15,6 +15,12 @@ Esse é um repositorio onde estão armazenados os meus projetos de data science,
  - [Detecção de musicas virais do Spotify baseado em características musicais](https://github.com/webercg/Data-Science-Projects/tree/main/Spotify-popularity-predictions-TCC-UTFPR)
  - [Simulação de Agencia de Turismo em banco de dados](https://github.com/webercg/Entrada-de-Turistas)
 
+# Competições e estudos de casos :
+ - [Estudo de caso - Banco PAN - Risco de Crédito](https://github.com/webercg/Data-Science-Projects/tree/main/Estudo%20de%20caso%20-%20Banco%20PAN%20-%20Risco%20de%20Cr%C3%A9dito)
+ - [Predisposição de diabetes](https://github.com/webercg/Data-Science-Projects/tree/main/Competicao%20-%20CDP)
+ - [NLP: Processamento de noticias para predição do valor de ações da Petrobras](https://github.com/webercg/NLP---Daily-News-for-Stock-Market-Prediction)
+ - [Otimização de Cross-Selling de Seguros de Veículos em seguradora de saúde](https://github.com/webercg/Data-Science-Projects/tree/main/Health-Insurance-Cross-Sell-Prediction)
+
  # Sobre mim :
  
  Sou Engenheiro Químico de formação pela Escola Politécnica da Universidade de São Paulo (Poli-USP) e Especialista em Ciência de Dados pela UTFPR. Encontrei a minha paixão por dados durante meu estágio em uma distribuidora de produtos de limpeza em 2018 onde encabecei e desenvolvi um projeto voltado á automação do processo de compras em que o produto final foi um relatório de sugestão de compas baseado no nível de estoques, previsão de vendas, tempo de entrega por fornecedor, checagem de atendimento ao pedido mínimo, checagem de produtos com riscos de ruptura de estoque e tempo de entrega por fornecedores. 
