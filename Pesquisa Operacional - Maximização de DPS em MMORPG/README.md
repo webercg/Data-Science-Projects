@@ -56,7 +56,12 @@ A escolha de Runas que maximiza o DPS para o local de caça dos Elfos de Fogo pa
 - Runa de dano death: Thanatursus  
 - Runa de dano energy: Crazed_Summer_Rearguard  
 - Runa de dano holy: Arachnophobica  
-- Runa de dano ice: Crazed_Summer_Vanguard  
+- Runa de dano ice: Crazed_Summer_Vanguard
+- 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
   
 - No código, é realizada uma comparação entre os resultados da pesquisa operacional e o algoritmo de força bruta para validar os resultados. Ambas as técnicas convergiram para a mesma resposta.
 - Observa-se que a runa de dano de Fogo não foi escolhida no algoritmo, possivelmente devido à resistência das criaturas enfrentadas ao fogo no local de caça.
