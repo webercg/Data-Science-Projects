@@ -1,4 +1,6 @@
 
+# Otimização de DPS no Tibia: Uma abordagem com pesquisa operacional
+![](screenshot1.png)
 
 # Contextualização do problema
 
@@ -17,20 +19,21 @@ O objetivo deste trabalho é responder à seguinte pergunta: dadas as restriçõ
 
 ## Criaturas
 - Vida maxima da criatura
-- Fraqueza / Resistência contra elemento de dano físico - Fator de multiplicação de dano físico que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano de veneno -  Fator de multiplicação de dano de veneno que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano de fogo -  Fator de multiplicação de dano de fogo que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano de morte - Fator de multiplicação de dano de morte que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano de energia - Fator de multiplicação de dano de energia que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano sagrado - Fator de multiplicação de dano sagrado que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano de gelo - Fator de multiplicação de dano de gelo que a criatura recebe
+- Fraqueza / Resistência contra elemento de dano físico
+- Fraqueza / Resistência contra elemento de dano de veneno
+- Fraqueza / Resistência contra elemento de dano de fogo
+- Fraqueza / Resistência contra elemento de dano de morte
+- Fraqueza / Resistência contra elemento de dano de energia
+- Fraqueza / Resistência contra elemento de dano sagrado
+- Fraqueza / Resistência contra elemento de dano de gelo
 - Quantidade de golpes distintos que a criatura pode deferir em 1 turno
+- Dano médio dos golpes que a criatura pode deferir em 1 turno
 
 ## Local de caça
 - Proporção de aparição da criatura dado o local de caça e o caminho escolhido para repetir.
 
 ## Personagem
-- Número de golpes que criatura deve receber para ser derrotada dado as estatisticas do meu personagem (Armas, set, rotação de magia, talentos, skills, encantamentos (imbuements), chance de dano crítico etc) e as estatísticas da criatura (armadura, vida etc)
+- Número de golpes que criatura deve receber para ser derrotada dado as estatisticas do meu personagem (Armas, set, rotação de magia, talentos, skills, encantamentos (imbuements), chance de dano crítico etc) e as estatísticas da criatura (armadura, vida, fraquezas etc)
 
 # Pesquisa Operacional
 
@@ -44,4 +47,23 @@ A função objetivo escolhida foi a maximização do DPS (dano por segundo) que 
 - ![](eq_restricao1.png)
 - ![](eq_restricao1.1.png)
 ## Restrição 2: Cada criatura deve ter, no máximo, 1 runa alocada.
-- ![](eq_restricao1.1.png)
+- ![](eq_restricao2.png)
+
+# Resultados
+A escolha de Runas que maximiza o DPS para o local de caça dos Elfos de Fogo para meu personagem foi:  
+
+| Runa  | Criatura |
+| ------------- | ------------- |
+| Dano Físico  | Insane_Siren  |
+| Dano Poison  | Lacewing_Moth  |
+| Dano Fire  | -  |
+| Dano Death  | Thanatursus  |
+| Dano Energy  | Crazed Summer Rearguard   |
+| Dano Holy  | Arachnophobica  |
+| Dano Ice  | Crazed Summer Vanguard |
+| Reflect  | - |
+   
+- No código, é realizada uma comparação entre os resultados da pesquisa operacional e o algoritmo de força bruta para validar os resultados. Ambas as técnicas convergiram para a mesma alocação de runas.
+- Observa-se que a runa de dano de Fogo não foi escolhida no algoritmo, possivelmente devido à resistência ao fogo das criaturas enfrentadas no local de caça escolhido (Elfos de Fogo).
+- Além disso, a runa de dano refletido também não foi alocada para esse local de caça. Dada as estatísticas das criaturas nesse local, é mais vantajoso investir em runas elementais em comparação com runas refletoras.
+- Não alocar a runa refletora de dano é contra-intuitivo na gameplay da profissão de Cavalheiros (Knights), já que a runa mais popular e mais priorizada por essa profissão. Os resultados mostraram que, para esse local de caça, essa runa é superestimada. Isso mostra a importância de uma boa análise para alocar corretamente as runas e maximizar o dano e os pontos de experiência adquiridos.
