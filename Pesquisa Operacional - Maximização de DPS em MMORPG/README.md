@@ -27,12 +27,13 @@ O objetivo deste trabalho é responder à seguinte pergunta: dadas as restriçõ
 - Fraqueza / Resistência contra elemento de dano sagrado
 - Fraqueza / Resistência contra elemento de dano de gelo
 - Quantidade de golpes distintos que a criatura pode deferir em 1 turno
+- Dano médio dos golpes que a criatura pode deferir em 1 turno
 
 ## Local de caça
 - Proporção de aparição da criatura dado o local de caça e o caminho escolhido para repetir.
 
 ## Personagem
-- Número de golpes que criatura deve receber para ser derrotada dado as estatisticas do meu personagem (Armas, set, rotação de magia, talentos, skills, encantamentos (imbuements), chance de dano crítico etc) e as estatísticas da criatura (armadura, vida etc)
+- Número de golpes que criatura deve receber para ser derrotada dado as estatisticas do meu personagem (Armas, set, rotação de magia, talentos, skills, encantamentos (imbuements), chance de dano crítico etc) e as estatísticas da criatura (armadura, vida, fraquezas etc)
 
 # Pesquisa Operacional
 
