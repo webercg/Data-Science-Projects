@@ -1,4 +1,5 @@
 
+![](screenshot1.png)
 
 # Contextualização do problema
 
@@ -17,13 +18,13 @@ O objetivo deste trabalho é responder à seguinte pergunta: dadas as restriçõ
 
 ## Criaturas
 - Vida maxima da criatura
-- Fraqueza / Resistência contra elemento de dano físico - Fator de multiplicação de dano físico que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano de veneno -  Fator de multiplicação de dano de veneno que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano de fogo -  Fator de multiplicação de dano de fogo que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano de morte - Fator de multiplicação de dano de morte que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano de energia - Fator de multiplicação de dano de energia que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano sagrado - Fator de multiplicação de dano sagrado que a criatura recebe
-- Fraqueza / Resistência contra elemento de dano de gelo - Fator de multiplicação de dano de gelo que a criatura recebe
+- Fraqueza / Resistência contra elemento de dano físico
+- Fraqueza / Resistência contra elemento de dano de veneno
+- Fraqueza / Resistência contra elemento de dano de fogo
+- Fraqueza / Resistência contra elemento de dano de morte
+- Fraqueza / Resistência contra elemento de dano de energia
+- Fraqueza / Resistência contra elemento de dano sagrado
+- Fraqueza / Resistência contra elemento de dano de gelo
 - Quantidade de golpes distintos que a criatura pode deferir em 1 turno
 
 ## Local de caça
