@@ -54,8 +54,8 @@ A escolha de Runas que maximiza o DPS para o local de caça dos Elfos de Fogo pa
 
 | Runa  | Criatura |
 | ------------- | ------------- |
-| Dano Físico  | Insane_Siren  |
-| Dano Poison  | Lacewing_Moth  |
+| Dano Físico  | Insane Siren  |
+| Dano Poison  | Lacewing Moth  |
 | Dano Fire  | -  |
 | Dano Death  | Thanatursus  |
 | Dano Energy  | Crazed Summer Rearguard   |
