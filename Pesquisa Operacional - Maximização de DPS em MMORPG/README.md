@@ -13,7 +13,9 @@ Os locais de caça apresentam uma diversidade de criaturas, e a proporção de s
 O objetivo deste trabalho é responder à seguinte pergunta: dadas as restrições de alocação de runas, as características do local de caça (proporção de aparição de criaturas) e as estatísticas das criaturas, como vida máxima, dano aumentado ou reduzido á elementos, quantidade de golpes deferidos pela criatura, dano dos golpes e quantidade de golpes para derrotar cada criatura,   
 **como devemos alocar as runas e em quais criaturas alocá-las para maximizar o dano adicional e extrair o máximo que um local de caça, pode oferecer? (como o dos elfos de fogo em Feyrist).**
 
-# Estatisticas de criatura
+# Estatisticas
+
+## Criaturas
 - Vida maxima da criatura
 - Fraqueza / Resistência contra elemento de dano físico - Fator de multiplicação de dano físico que a criatura recebe
 - Fraqueza / Resistência contra elemento de dano de veneno -  Fator de multiplicação de dano de veneno que a criatura recebe
@@ -24,10 +26,10 @@ O objetivo deste trabalho é responder à seguinte pergunta: dadas as restriçõ
 - Fraqueza / Resistência contra elemento de dano de gelo - Fator de multiplicação de dano de gelo que a criatura recebe
 - Quantidade de golpes distintos que a criatura pode deferir em 1 turno
 
-# Estatísticas do local de caça
+## Local de caça
 - Proporção de aparição da criatura dado o local de caça e o caminho escolhido para repetir.
 
-# Estatística do personagem
+## Personagem
 - Número de golpes que criatura deve receber para ser derrotada dado as estatisticas do meu personagem (Armas, set, rotação de magia, talentos, skills, encantamentos (imbuements), chance de dano crítico etc) e as estatísticas da criatura (armadura, vida etc)
 
 # Pesquisa Operacional
