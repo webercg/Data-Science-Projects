@@ -62,6 +62,6 @@ A escolha de Runas que maximiza o DPS para o local de caça dos Elfos de Fogo pa
 | Dano Ice  | Crazed Summer Vanguard |
 | Reflect  | - |
    
-- No código, é realizada uma comparação entre os resultados da pesquisa operacional e o algoritmo de força bruta para validar os resultados. Ambas as técnicas convergiram para a mesma resposta.
-- Observa-se que a runa de dano de Fogo não foi escolhida no algoritmo, possivelmente devido à resistência das criaturas enfrentadas ao fogo no local de caça.
+- No código, é realizada uma comparação entre os resultados da pesquisa operacional e o algoritmo de força bruta para validar os resultados. Ambas as técnicas convergiram para a mesma alocação de runas.
+- Observa-se que a runa de dano de Fogo não foi escolhida no algoritmo, possivelmente devido à resistência das criaturas enfrentadas ao fogo no local de caça escolhido (Elfos de Fogo).
 - Além disso, a runa de dano refletido também não foi alocada para esse local de caça. Dada as estatísticas das criaturas nesse local, é mais vantajoso investir em runas elementais em comparação com runas refletoras.
