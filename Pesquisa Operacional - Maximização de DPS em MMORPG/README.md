@@ -49,14 +49,14 @@ A função objetivo escolhida foi a maximização do DPS (dano por segundo) que 
 - ![](eq_restricao1.1.png)
 
 # Resultados
-Os resultados que maximizam o DPS para o local de caça dos Elfos de Fogo em Feyrist para meu personagem foi:  
+A escolha de Runas que maximiza o DPS para o local de caça dos Elfos de Fogo para meu personagem foi:  
   
-- Dano Físico: Insane_Siren  
-- Dano Poison: Lacewing_Moth  
-- Dano Death: Thanatursus  
-- Dano Energy: Crazed_Summer_Rearguard  
-- Dano Holy: Arachnophobica  
-- Dano Ice: Crazed_Summer_Vanguard  
+- Runa de dano físico: Insane_Siren  
+- Runa de dano poison: Lacewing_Moth  
+- Runa de dano death: Thanatursus  
+- Runa de dano energy: Crazed_Summer_Rearguard  
+- Runa de dano holy: Arachnophobica  
+- Runa de dano ice: Crazed_Summer_Vanguard  
   
 - No código, é realizada uma comparação entre os resultados da pesquisa operacional e o algoritmo de força bruta para validar os resultados. Ambas as técnicas convergiram para a mesma resposta.
 - Observa-se que a runa de dano de Fogo não foi escolhida no algoritmo, possivelmente devido à resistência das criaturas enfrentadas ao fogo no local de caça.
