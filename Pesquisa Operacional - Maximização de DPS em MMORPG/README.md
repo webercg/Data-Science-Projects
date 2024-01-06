@@ -47,7 +47,7 @@ A função objetivo escolhida foi a maximização do DPS (dano por segundo) que 
 - ![](eq_restricao1.png)
 - ![](eq_restricao1.1.png)
 ## Restrição 2: Cada criatura deve ter, no máximo, 1 runa alocada.
-- ![](eq_restricao1.1.png)
+- ![](eq_restricao2.png)
 
 # Resultados
 A escolha de Runas que maximiza o DPS para o local de caça dos Elfos de Fogo para meu personagem foi:  
