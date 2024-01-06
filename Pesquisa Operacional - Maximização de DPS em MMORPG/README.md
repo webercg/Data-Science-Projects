@@ -32,9 +32,9 @@ turnos_dano_para_morte: Média do número de turnos de dano a criatura recebe an
 # Pesquisa Operacional
 
 ## Função Objetivo
-- ![](image/funcao_objetivo.png)
+- ![](funcao_objetivo.png)
 ## Restrição 1: Cada runa deve ter, no máximo, 1 criatura alocada
-- ![](image/eq_restricao1.png)
-- ![](image/eq_restricao1.1.png)
+- ![](eq_restricao1.png)
+- ![](eq_restricao1.1.png)
 ## Restrição 2: Cada criatura deve ter, no máximo, 1 runa alocada.
-- ![](image/eq_restricao1.1.png)
+- ![](eq_restricao1.1.png)
