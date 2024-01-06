@@ -1,0 +1,735 @@
+Criatura, Tipo, Dificuldade, Ocorrencia, Charm, Exp, HP, Kills
+Toad,Amphibic,Easy,Common,15,60,135,500
+Green Frog,Amphibic,Trivial,Common,5,0,25,250
+Azure Frog,Amphibic,Easy,Common,15,20,60,500
+Coral Frog,Amphibic,Easy,Common,15,20,60,500
+Crimson Frog,Amphibic,Easy,Common,15,20,60,500
+Orchid Frog,Amphibic,Easy,Common,15,20,60,500
+Infernal Frog,Amphibic,Medium,Uncommon,25,190,655,1000
+Filth Toad,Amphibic,Easy,Uncommon,15,90,185,500
+Bog Frog,Amphibic,Trivial,Common,5,0,25,250
+Salamander,Amphibic,Easy,Common,15,25,70,500
+Makara,Amphibic,Hard,Common,50,6150,4770,2500
+Crab,Aquatic,Easy,Common,15,30,55,500
+Quara Predator,Aquatic,Medium,Common,25,1600,2200,1000
+Quara Predator Scout,Aquatic,Medium,Common,25,400,890,1000
+Quara Constrictor,Aquatic,Medium,Common,25,250,450,1000
+Quara Constrictor Scout,Aquatic,Medium,Common,25,200,450,1000
+Quara Mantassin,Aquatic,Medium,Common,25,400,800,1000
+Quara Mantassin Scout,Aquatic,Easy,Common,15,100,220,500
+Quara Hydromancer,Aquatic,Medium,Common,25,800,1100,1000
+Quara Hydromancer Scout,Aquatic,Medium,Common,25,800,1100,1000
+Quara Pincher,Aquatic,Medium,Common,25,1200,1800,1000
+Quara Pincher Scout,Aquatic,Medium,Common,25,600,775,1000
+Blood Crab,Aquatic,Easy,Common,15,160,290,500
+Deepsea Blood Crab,Aquatic,Easy,Common,15,180,320,500
+Crustacea Gigantica,Aquatic,Medium,Very Rare,50,1800,1600,5
+Deepling Scout,Aquatic,Medium,Common,25,160,240,1000
+Deepling Warrior,Aquatic,Medium,Common,25,1500,1600,1000
+Deepling Guard,Aquatic,Medium,Common,25,2100,1900,1000
+Deepling Spellsinger,Aquatic,Medium,Common,25,1000,850,1000
+Manta Ray,Aquatic,Medium,Rare,25,125,680,1000
+Calamary,Aquatic,Easy,Uncommon,15,0,75,500
+Jellyfish,Aquatic,Easy,Uncommon,15,0,55,500
+Shark,Aquatic,Medium,Common,25,700,1200,1000
+Northern Pike,Aquatic,Harmless,Uncommon,1,0,95,25
+Fish,Aquatic,Trivial,Common,5,0,25,250
+Deepling Worker,Aquatic,Easy,Common,15,130,190,500
+Deepling Brawler,Aquatic,Medium,Uncommon,25,260,380,1000
+Deepling Master Librarian,Aquatic,Medium,Rare,25,1900,1700,1000
+Deepling Tyrant,Aquatic,Hard,Rare,50,4200,4500,2500
+Deepling Elite,Aquatic,Medium,Uncommon,25,3000,3200,1000
+Renegade Quara Constrictor,Aquatic,Medium,Rare,25,1250,1500,1000
+Renegade Quara Hydromancer,Aquatic,Medium,Rare,25,1800,2000,1000
+Renegade Quara Mantassin,Aquatic,Medium,Rare,25,1000,1200,1000
+Renegade Quara Pincher,Aquatic,Medium,Rare,25,2200,2800,1000
+Renegade Quara Predator,Aquatic,Medium,Rare,25,2700,3250,1000
+Abyssal Calamary,Aquatic,Easy,Common,15,200,300,500
+Deathling Scout,Aquatic,Hard,Common,50,6300,7200,2500
+Deathling Spellsinger,Aquatic,Hard,Common,50,6400,7200,2500
+Chicken,Bird,Trivial,Common,5,0,15,250
+Flamingo,Bird,Trivial,Common,5,0,25,250
+Parrot,Bird,Trivial,Common,5,0,25,250
+Terror Bird,Bird,Easy,Common,15,150,300,500
+Seagull,Bird,Trivial,Common,5,0,25,250
+Penguin,Bird,Trivial,Common,5,1,33,250
+Dire Penguin,Bird,Easy,Very Rare,30,119,173,5
+Berserker Chicken,Bird,Medium,Uncommon,25,220,465,1000
+Demon Parrot,Bird,Medium,Uncommon,25,225,360,1000
+Marsh Stalker,Bird,Easy,Common,15,50,100,500
+Pigeon,Bird,Harmless,Uncommon,1,0,30,25
+Cave Parrot,Bird,Trivial,Common,5,0,30,250
+Agrestic Chicken,Bird,Trivial,Common,5,0,15,250
+Jungle Moa,Bird,Medium,Common,25,1200,1300,1000
+Headpecker,Bird,Challenging,Common,100,13950,14700,5000
+Harpy,Bird,Hard,Common,50,7150,7700,2500
+Carnivostrich,Bird,Hard,Common,50,7290,8250,2500
+Stone Golem,Construct,Easy,Common,15,160,270,500
+Ice Golem,Construct,Medium,Common,25,295,385,1000
+Worker Golem,Construct,Medium,Common,25,1250,1470,1000
+Damaged Worker Golem,Construct,Easy,Common,15,95,260,500
+War Golem,Construct,Medium,Common,25,2310,4300,1000
+Eternal Guardian,Construct,Medium,Common,25,1800,2500,1000
+Cake Golem,Construct,Easy,Very Rare,30,100,444,5
+Iron Servant,Construct,Easy,Very Rare,30,210,350,5
+Golden Servant,Construct,Medium,Very Rare,50,450,550,5
+Diamond Servant,Construct,Medium,Very Rare,50,700,1000,5
+Sandstone Scorpion,Construct,Medium,Rare,25,680,900,1000
+Clay Guardian,Construct,Medium,Common,25,400,625,1000
+Enraged Crystal Golem,Construct,Medium,Common,25,550,700,1000
+Damaged Crystal Golem,Construct,Easy,Uncommon,15,0,500,500
+Stone Devourer,Construct,Hard,Uncommon,50,2900,4200,2500
+Weeper,Construct,Hard,Uncommon,50,4800,6800,2500
+Orewalker,Construct,Hard,Uncommon,50,4800,7200,2500
+Lava Golem,Construct,Hard,Uncommon,50,6200,9000,2500
+Magma Crawler,Construct,Hard,Common,50,2700,4800,2500
+Infected Weeper,Construct,Hard,Uncommon,50,1200,3000,2500
+Glooth Golem,Construct,Medium,Common,25,1606,2700,1000
+Metal Gargoyle,Construct,Medium,Common,25,1278,2100,1000
+Rustheap Golem,Construct,Medium,Common,25,2100,2800,1000
+Walker,Construct,Medium,Uncommon,25,2200,3000,1000
+Iron Servant Replica,Construct,Medium,Common,25,210,1000,1000
+Diamond Servant Replica,Construct,Medium,Rare,25,700,2000,1000
+Golden Servant Replica,Construct,Medium,Rare,25,450,2000,1000
+Biting Book,Construct,Hard,Common,50,9350,6500,2500
+Animated Snowman,Construct,Medium,Rare,25,400,450,1000
+Rotten Golem,Construct,Challenging,Common,100,17860,28000,5000
+Shrieking Cry-Stal,Construct,Challenging,Common,100,15730,18700,5000
+Walking Pillar,Construct,Challenging,Common,100,22500,38000,5000
+Wandering Pillar,Construct,Challenging,Common,100,22300,37000,5000
+Demon,Demon,Hard,Common,50,6000,8200,2500
+Fire Devil,Demon,Easy,Common,15,145,200,500
+Dark Torturer,Demon,Hard,Common,50,4650,7350,2500
+Destroyer,Demon,Medium,Common,25,2500,3700,1000
+Diabolic Imp,Demon,Medium,Common,25,2900,1950,1000
+Fury,Demon,Hard,Common,50,3600,4100,2500
+Hellhound,Demon,Hard,Common,50,5440,7500,2500
+Hellfire Fighter,Demon,Hard,Common,50,3120,3800,2500
+Juggernaut,Demon,Hard,Common,50,11200,20000,2500
+Plaguesmith,Demon,Medium,Common,25,3555,8250,1000
+Hellspawn,Demon,Medium,Common,25,2550,3500,1000
+Gozzler,Demon,Easy,Common,15,180,240,500
+Duskbringer,Demon,Medium,Very Rare,50,2600,3550,5
+Shadow Hound,Demon,Medium,Very Rare,50,600,555,5
+Herald of Gloom,Demon,Medium,Very Rare,50,450,340,5
+Shaburak Demon,Demon,Medium,Common,25,900,1500,1000
+Shaburak Lord,Demon,Medium,Rare,25,1200,2100,1000
+Shaburak Prince,Demon,Medium,Rare,25,1700,2600,1000
+Askarak Demon,Demon,Medium,Common,25,900,1500,1000
+Askarak Lord,Demon,Medium,Rare,25,1200,2100,1000
+Askarak Prince,Demon,Medium,Rare,25,1700,2600,1000
+Nightfiend,Demon,Medium,Very Rare,50,2100,2700,5
+Demon Outcast,Demon,Hard,Common,50,6200,6900,2500
+Dawnfire Asura,Demon,Hard,Common,50,4100,2900,2500
+Midnight Asura,Demon,Medium,Common,25,4100,3100,1000
+Grimeleech,Demon,Hard,Common,50,7216,9500,2500
+Vexclaw,Demon,Hard,Common,50,6248,8500,2500
+Hellflayer,Demon,Hard,Common,50,11000,14000,2500
+Frost Flower Asura,Demon,Medium,Common,25,4200,3500,1000
+True Dawnfire Asura,Demon,Hard,Common,50,7475,8500,2500
+True Midnight Asura,Demon,Hard,Common,50,7313,9000,2500
+True Frost Flower Asura,Demon,Hard,Common,50,7069,4000,2500
+Floating Savant,Demon,Hard,Common,50,8000,8000,2500
+Many Faces,Demon,Challenging,Common,100,18870,30000,5000
+Brachiodemon,Demon,Challenging,Common,100,15770,25000,5000
+Infernal Demon,Demon,Challenging,Common,100,17430,32000,5000
+Dragon,Dragon,Medium,Common,25,700,1000,1000
+Dragon Lord,Dragon,Medium,Common,25,2100,1900,1000
+Hydra,Dragon,Medium,Common,25,2100,2350,1000
+Frost Dragon Raid,Dragon,Medium,Common,25,2100,1800,1000
+Dragon Hatchling,Dragon,Medium,Common,25,185,380,1000
+Dragon Lord Hatchling,Dragon,Medium,Common,25,645,750,1000
+Frost Dragon Hatchling Raid,Dragon,Medium,Common,25,745,800,1000
+Wyrm,Dragon,Medium,Common,25,1550,1825,1000
+Draken Warmaster,Dragon,Medium,Common,25,2400,4150,1000
+Draken Spellweaver,Dragon,Hard,Common,50,3100,5000,2500
+Ghastly Dragon,Dragon,Hard,Common,50,4600,7800,2500
+Draken Elite,Dragon,Hard,Common,50,4200,5550,2500
+Draken Abomination,Dragon,Hard,Common,50,3800,6250,2500
+Elder Wyrm,Dragon,Hard,Common,50,2500,2700,2500
+Haunted Dragon,Dragon,Hard,Common,50,6500,6500,2500
+Ice Dragon,Dragon,Medium,Common,25,2300,2500,1000
+Albino Dragon,Dragon,Medium,Very Rare,50,2250,5000,5
+Dragolisk,Dragon,Hard,Common,50,5050,6180,2500
+Wardragon,Dragon,Hard,Common,50,5810,6960,2500
+Mega Dragon,Dragon,Hard,Common,50,6790,7920,2500
+Fire Elemental Raid,Elemental,Medium,Common,25,220,280,1000
+Water Elemental,Elemental,Medium,Common,25,650,550,1000
+Massive Water Elemental,Elemental,Medium,Common,25,1100,1250,1000
+Massive Fire Elemental,Elemental,Medium,Common,25,1400,1200,1000
+Massive Earth Elemental,Elemental,Medium,Common,25,950,1330,1000
+Massive Energy Elemental,Elemental,Medium,Uncommon,25,950,1100,1000
+Energy Elemental Raid,Elemental,Medium,Common,25,550,500,1000
+Earth Elemental,Elemental,Medium,Common,25,450,650,1000
+Cliff Strider,Elemental,Hard,Uncommon,50,5700,9400,2500
+Ironblight,Elemental,Hard,Uncommon,50,4400,6600,2500
+Furious Fire Elemental,Elemental,Medium,Common,25,220,280,1000
+High Voltage Elemental,Elemental,Medium,Common,25,1500,1500,1000
+Raging Fire,Elemental,Medium,Very Rare,50,1500,1800,5
+Lava Lurker,Elemental,Hard,Common,50,4000,5900,2500
+Ravenous Lava Lurker,Elemental,Medium,Common,25,4000,5000,1000
+Knowledge Elemental,Elemental,Hard,Uncommon,50,10603,10500,2500
+Turbulent Elemental,Elemental,Challenging,Common,100,19360,28000,5000
+Foam Stalker,Elemental,Hard,Common,50,3120,4500,2500
+Sulphur Spouter,Elemental,Challenging,Common,100,13360,17100,5000
+Converter,Elemental,Challenging,Common,100,20600,29600,5000
+Yielothax,Extra Dimensional,Medium,Common,25,1250,1500,1000
+Reality Reaver,Extra Dimensional,Hard,Common,50,2480,3900,2500
+Sparkion,Extra Dimensional,Hard,Common,50,1520,2700,2500
+Breach Brood,Extra Dimensional,Hard,Common,50,1760,3500,2500
+Dread Intruder,Extra Dimensional,Hard,Common,50,2400,4500,2500
+Instable Sparkion,Extra Dimensional,Medium,Common,25,1350,1900,1000
+Instable Breach Brood,Extra Dimensional,Medium,Common,25,1100,2200,1000
+Stabilizing Reality Reaver,Extra Dimensional,Medium,Common,25,1950,2500,1000
+Stabilizing Dread Intruder,Extra Dimensional,Medium,Common,25,1900,2800,1000
+Courage Leech,Extra Dimensional,Challenging,Common,100,18900,27000,5000
+Mitmah Seer,Extra Dimensional,Hard,Common,50,4580,4620,2500
+Mitmah Scout,Extra Dimensional,Hard,Common,50,3230,3940,2500
+Dryad,Fey,Medium,Very Rare,50,190,310,5
+Wisp,Fey,Trivial,Common,5,0,115,250
+Faun,Fey,Medium,Common,25,800,900,1000
+Pooka,Fey,Medium,Common,25,500,500,1000
+Twisted Pooka,Fey,Medium,Common,25,600,700,1000
+Swan Maiden,Fey,Medium,Uncommon,25,700,800,1000
+Pixie,Fey,Medium,Common,25,700,770,1000
+Boogy,Fey,Medium,Common,25,950,1300,1000
+Nymph,Fey,Medium,Common,25,850,900,1000
+Dark Faun,Fey,Medium,Common,25,900,1100,1000
+Arctic Faun,Fey,Medium,Uncommon,25,300,300,1000
+Percht,Fey,Medium,Rare,25,600,620,1000
+Schiach,Fey,Medium,Rare,25,580,600,1000
+Cyclops,Giant,Easy,Common,15,150,260,500
+Behemoth,Giant,Medium,Common,25,2500,4000,1000
+Frost Giant,Giant,Easy,Common,15,150,270,500
+Frost Giantess,Giant,Easy,Common,15,150,275,500
+Cyclops Smith,Giant,Medium,Common,25,255,435,1000
+Cyclops Drone,Giant,Medium,Common,25,200,325,1000
+Ogre Brute,Giant,Medium,Common,25,800,1000,1000
+Ogre Savage,Giant,Medium,Common,25,950,1400,1000
+Ogre Shaman,Giant,Medium,Common,25,625,800,1000
+Orclops Doomhauler,Giant,Medium,Common,25,1200,1700,1000
+Orclops Ravager,Giant,Medium,Common,25,1100,1200,1000
+Ogre Ruffian,Giant,Hard,Common,50,5000,5500,2500
+Ogre Rowdy,Giant,Hard,Common,50,4200,4500,2500
+Ogre Sage,Giant,Hard,Common,50,5500,4800,2500
+Orger,Giant,Medium,Rare,25,550,700,1000
+Loricate Orger,Giant,Medium,Rare,25,570,750,1000
+Bellicose Orger,Giant,Medium,Rare,25,500,700,1000
+Hulking Prehemoth,Giant,Challenging,Common,100,14720,19090,5000
+Necromancer,Human,Medium,Common,25,580,580,1000
+Warlock,Human,Medium,Common,25,4000,3500,1000
+Hunter,Human,Easy,Common,15,150,150,500
+Valkyrie,Human,Easy,Common,15,85,190,500
+Wild Warrior,Human,Easy,Common,15,60,135,500
+Witch,Human,Easy,Common,15,120,300,500
+Monk,Human,Easy,Common,15,200,240,500
+Priestess,Human,Medium,Common,25,420,390,1000
+Stalker,Human,Easy,Common,15,90,120,500
+Hero,Human,Medium,Common,25,1200,1400,1000
+Amazon,Human,Easy,Common,15,60,110,500
+Smuggler,Human,Easy,Common,15,48,130,500
+Bandit,Human,Easy,Common,15,65,245,500
+Assassin,Human,Easy,Common,15,105,175,500
+Dark Monk,Human,Easy,Common,15,145,190,500
+Pirate Marauder,Human,Easy,Common,15,125,210,500
+Pirate Cutthroat,Human,Medium,Common,25,175,325,1000
+Pirate Buccaneer,Human,Medium,Common,25,250,425,1000
+Pirate Corsair,Human,Medium,Common,25,350,675,1000
+Enlightened of the Cult,Human,Medium,Common,25,500,700,1000
+Acolyte of the Cult,Human,Medium,Common,25,300,390,1000
+Adept of the Cult,Human,Medium,Common,25,400,430,1000
+Novice of the Cult,Human,Easy,Common,15,100,285,500
+Nomad,Human,Easy,Common,15,60,160,500
+Barbarian Skullhunter,Human,Easy,Common,15,85,135,500
+Barbarian Bloodwalker,Human,Medium,Common,25,195,305,1000
+Ice Witch,Human,Medium,Common,25,580,650,1000
+Barbarian Brutetamer,Human,Easy,Common,15,90,145,500
+Barbarian Headsplitter,Human,Easy,Common,15,85,100,500
+Dark Magician,Human,Easy,Common,15,185,325,500
+Dark Apprentice,Human,Easy,Common,15,100,225,500
+Poacher,Human,Easy,Common,15,70,90,500
+Mutated Human,Human,Medium,Common,25,150,240,1000
+Crazed Beggar,Human,Easy,Common,15,35,100,500
+Gang Member,Human,Easy,Common,15,70,295,500
+Gladiator,Human,Easy,Common,15,90,185,500
+Mad Scientist,Human,Easy,Common,15,205,325,500
+Infernalist,Human,Hard,Common,50,4000,3650,2500
+Acolyte of Darkness,Human,Easy,Very Rare,30,200,325,5
+Nightslayer,Human,Medium,Very Rare,50,250,400,5
+Doomsday Cultist,Human,Easy,Very Rare,30,100,125,5
+Midnight Warrior,Human,Medium,Very Rare,50,750,1000,5
+Bride of Night,Human,Medium,Very Rare,50,450,275,5
+Feverish Citizen,Human,Easy,Rare,15,30,125,500
+Nomad (Blue),Human,Easy,Uncommon,15,60,160,500
+Nomad (Female),Human,Easy,Uncommon,15,60,160,500
+Grave Robber,Human,Easy,Rare,15,65,165,500
+Crypt Defiler,Human,Easy,Rare,15,70,185,500
+Adventurer,Human,Easy,Common,15,0,65,500
+Shadow Pupil,Human,Medium,Common,25,410,450,1000
+Blood Priest,Human,Medium,Common,25,900,820,1000
+Blood Hand,Human,Medium,Common,25,750,700,1000
+Glooth Bandit,Human,Medium,Common,25,2000,2600,1000
+Glooth Brigand,Human,Medium,Common,25,1900,2400,1000
+Vicious Squire,Human,Medium,Common,25,900,1000,1000
+Renegade Knight,Human,Medium,Common,25,1200,1450,1000
+Vile Grandmaster,Human,Medium,Common,25,1500,1700,1000
+Goldhanded Cultist,Human,Medium,Uncommon,25,2000,3000,1000
+Goldhanded Cultist Bride,Human,Medium,Uncommon,25,2000,3000,1000
+Cult Believer,Human,Medium,Common,25,850,975,1000
+Cult Enforcer,Human,Medium,Common,25,1000,1150,1000
+Cult Scholar,Human,Medium,Uncommon,25,1100,1650,1000
+Cobra Assassin,Human,Hard,Common,50,6980,8200,2500
+Cobra Scout,Human,Hard,Common,50,7310,8500,2500
+Burning Gladiator,Human,Hard,Common,50,7350,10000,2500
+Priestess of the Wild Sun,Human,Hard,Common,50,6400,8500,2500
+Black Sphinx Acolyte,Human,Hard,Common,50,7200,8100,2500
+Cobra Vizier,Human,Hard,Common,50,7650,8500,2500
+Usurper Knight,Human,Hard,Common,50,6900,8200,2500
+Usurper Archer,Human,Hard,Common,50,6800,7300,2500
+Usurper Warlock,Human,Hard,Common,50,7000,7500,2500
+Hulking Carnisylvan,Human,Hard,Common,50,4700,8600,2500
+Poisonous Carnisylvan,Human,Hard,Common,50,4400,8000,2500
+Dark Carnisylvan,Human,Hard,Common,50,4400,7500,2500
+Orc Warlord,Humanoid,Medium,Common,25,670,950,1000
+Orc Rider,Humanoid,Easy,Common,15,110,180,500
+Orc,Humanoid,Easy,Common,15,25,70,500
+Orc Shaman,Humanoid,Easy,Common,15,110,115,500
+Orc Warrior,Humanoid,Easy,Common,15,50,125,500
+Orc Berserker,Humanoid,Medium,Common,25,195,210,1000
+Troll,Humanoid,Trivial,Common,5,20,50,250
+Minotaur Mage,Humanoid,Easy,Common,15,150,155,500
+Minotaur Archer,Humanoid,Easy,Common,15,65,100,500
+Minotaur,Humanoid,Easy,Common,15,50,100,500
+Minotaur Guard,Humanoid,Easy,Common,15,160,185,500
+Orc Spearman,Humanoid,Easy,Common,15,38,105,500
+Frost Troll,Humanoid,Trivial,Common,5,23,55,250
+Orc Leader,Humanoid,Medium,Common,25,270,450,1000
+Goblin,Humanoid,Trivial,Common,5,25,50,250
+Elf,Humanoid,Easy,Common,15,42,100,500
+Elf Arcanist,Humanoid,Easy,Common,15,175,220,500
+Elf Scout,Humanoid,Easy,Common,15,75,160,500
+Dwarf Geomancer,Humanoid,Medium,Common,25,265,380,1000
+Dwarf,Humanoid,Easy,Common,15,45,90,500
+Dwarf Guard,Humanoid,Easy,Common,15,165,245,500
+Dwarf Soldier,Humanoid,Easy,Common,15,70,135,500
+Swamp Troll,Humanoid,Easy,Common,15,25,55,500
+Dworc Voodoomaster Raid,Humanoid,Easy,Common,15,55,80,500
+Dworc Fleshhunter Raid,Humanoid,Easy,Common,15,40,85,500
+Dworc Venomsniper Raid,Humanoid,Easy,Common,15,35,80,500
+Island Troll,Humanoid,Trivial,Common,5,20,50,250
+Chakoya Tribewarden,Humanoid,Easy,Common,15,40,68,500
+Chakoya Toolshaper,Humanoid,Easy,Common,15,40,80,500
+Chakoya Windcaller,Humanoid,Easy,Common,15,48,84,500
+Goblin Leader,Humanoid,Easy,Very Rare,30,75,50,5
+Dwarf Henchman,Humanoid,Medium,Common,25,15,350,1000
+Troll Champion,Humanoid,Easy,Common,15,40,75,500
+Grynch Clan Goblin,Humanoid,Trivial,Very Rare,10,4,80,5
+Goblin Assassin,Humanoid,Easy,Common,15,52,75,500
+Goblin Scavenger,Humanoid,Easy,Common,15,37,60,500
+Furious Troll Raid,Humanoid,Easy,Uncommon,15,185,245,500
+Troll Legionnaire Raid,Humanoid,Medium,Common,25,140,210,1000
+Orc Marauder,Humanoid,Medium,Common,25,205,235,1000
+Firestarter,Humanoid,Easy,Rare,15,80,180,500
+Elf Overseer,Humanoid,Medium,Very Rare,50,290,500,5
+Troll Guard,Humanoid,Easy,Very Rare,30,25,60,5
+Enslaved Dwarf,Humanoid,Medium,Common,25,2700,3800,1000
+Lost Berserker,Humanoid,Hard,Common,50,4400,5900,2500
+Corym Charlatan,Humanoid,Easy,Common,15,150,250,500
+Corym Skirmisher,Humanoid,Medium,Common,25,260,450,1000
+Corym Vanguard,Humanoid,Medium,Common,25,490,700,1000
+Little Corym Charlatan,Humanoid,Easy,Uncommon,15,40,90,500
+Lost Husher,Humanoid,Medium,Common,25,1800,1600,1000
+Lost Basher,Humanoid,Medium,Common,25,1800,2600,1000
+Lost Thrower,Humanoid,Medium,Common,25,1200,1700,1000
+Moohtant,Humanoid,Medium,Common,25,2600,3200,1000
+Minotaur Amazon,Humanoid,Hard,Common,50,2200,2600,2500
+Execowtioner,Humanoid,Medium,Common,25,2400,3500,1000
+Mooh'tah Warrior,Humanoid,Medium,Common,25,900,1200,1000
+Minotaur Hunter,Humanoid,Medium,Common,25,1700,1400,1000
+Worm Priestess,Humanoid,Medium,Common,25,1500,1100,1000
+Minotaur Invader,Humanoid,Medium,Rare,25,1600,1850,1000
+Broken Shaper,Humanoid,Medium,Common,25,1600,2200,1000
+Twisted Shaper,Humanoid,Medium,Common,25,1750,2500,1000
+Shaper Matriarch,Humanoid,Medium,Common,25,1650,2000,1000
+Misguided Bully,Humanoid,Medium,Common,25,1200,2000,1000
+Misguided Thief,Humanoid,Medium,Common,25,1200,1800,1000
+Barkless Devotee,Humanoid,Medium,Common,25,2200,2800,1000
+Barkless Fanatic,Humanoid,Medium,Common,25,2500,3200,1000
+Orc Cultist,Humanoid,Medium,Uncommon,25,950,1350,1000
+Orc Cult Priest,Humanoid,Medium,Uncommon,25,1000,1300,1000
+Orc Cult Inquisitor,Humanoid,Medium,Common,25,1150,1500,1000
+Orc Cult Fanatic,Humanoid,Medium,Uncommon,25,1100,1300,1000
+Orc Cult Minion,Humanoid,Medium,Common,25,850,1000,1000
+Minotaur Cult Follower,Humanoid,Medium,Common,25,950,1600,1000
+Minotaur Cult Prophet,Humanoid,Medium,Common,25,1100,1700,1000
+Minotaur Cult Zealot,Humanoid,Medium,Common,25,1350,1800,1000
+Lost Exile,Humanoid,Medium,Common,25,1800,1600,1000
+Crazed Winter Vanguard,Humanoid,Hard,Common,50,5400,5800,2500
+Crazed Winter Rearguard,Humanoid,Hard,Common,50,4700,5200,2500
+Crazed Summer Vanguard,Humanoid,Hard,Common,50,5000,5500,2500
+Crazed Summer Rearguard,Humanoid,Hard,Common,50,4700,5300,2500
+Soul-Broken Harbinger,Humanoid,Hard,Common,50,5800,6300,2500
+Insane Siren,Humanoid,Hard,Common,50,6000,6500,2500
+Pirat Cutthroat,Humanoid,Medium,Common,25,1800,2600,1000
+Pirat Scoundrel,Humanoid,Medium,Common,25,1600,2200,1000
+Pirat Bombardier,Humanoid,Medium,Common,25,1700,2300,1000
+Pirat Mate,Humanoid,Medium,Common,25,2400,3200,1000
+Crape Man,Humanoid,Hard,Common,50,6300,9150,2500
+Liodile,Humanoid,Hard,Common,50,7620,8600,2500
+Boar Man,Humanoid,Hard,Common,50,8580,9200,2500
+Rhindeer,Humanoid,Hard,Common,50,5600,8650,2500
+Bulltaur Brute,Humanoid,Hard,Common,50,4700,6560,2500
+Bulltaur Alchemist,Humanoid,Hard,Common,50,4180,5690,2500
+Bulltaur Forgepriest,Humanoid,Hard,Common,50,5180,6840,2500
+Werewolf,Lycanthrope,Medium,Common,25,1900,1955,1000
+Werebear,Lycanthrope,Medium,Common,25,2100,2400,1000
+Wereboar,Lycanthrope,Medium,Common,25,2000,2200,1000
+Werebadger,Lycanthrope,Medium,Common,25,1600,1700,1000
+Werefox,Lycanthrope,Medium,Common,25,1600,1500,1000
+Werehyaena,Lycanthrope,Medium,Common,25,2200,2700,1000
+Werehyaena Shaman,Lycanthrope,Medium,Common,25,2200,2500,1000
+Werelion,Lycanthrope,Hard,Common,50,2200,2800,2500
+Werelioness,Lycanthrope,Hard,Common,50,2300,3000,2500
+Weretiger,Lycanthrope,Hard,Common,50,3700,5000,2500
+White Weretiger,Lycanthrope,Hard,Common,50,4860,6100,2500
+Werecrocodile,Lycanthrope,Hard,Common,50,3900,5280,2500
+Feral Werecrocodile,Lycanthrope,Hard,Common,50,5080,6400,2500
+Werepanther,Lycanthrope,Hard,Common,50,3380,4200,2500
+Cunning Werepanther,Lycanthrope,Hard,Common,50,3450,4300,2500
+Bonelord,Magical,Easy,Common,15,170,260,500
+Green Djinn,Magical,Medium,Common,25,215,330,1000
+Blue Djinn,Magical,Medium,Common,25,215,330,1000
+Gargoyle Raid,Magical,Easy,Common,15,150,250,500
+Efreet,Magical,Medium,Common,25,410,550,1000
+Marid,Magical,Medium,Common,25,410,550,1000
+Elder Bonelord,Magical,Medium,Common,25,280,500,1000
+Gazer,Magical,Easy,Common,15,90,120,500
+Phantasm,Magical,Hard,Common,50,4400,3950,2500
+Nightmare,Magical,Medium,Common,25,1666,2700,1000
+Crystal Spider,Magical,Medium,Common,25,900,1250,1000
+Bog Raider,Magical,Medium,Common,25,800,1300,1000
+Nightmare Scion,Magical,Medium,Common,25,1350,1400,1000
+Nightstalker,Magical,Medium,Common,25,500,700,1000
+Medusa,Magical,Hard,Common,50,4050,4500,2500
+Midnight Panther,Magical,Medium,Very Rare,50,900,1200,5
+Thornfire Wolf,Magical,Medium,Very Rare,50,200,600,5
+Crystal Wolf,Magical,Medium,Very Rare,50,275,750,5
+Crystalcrusher,Magical,Medium,Common,25,500,570,1000
+Armadile,Magical,Hard,Uncommon,50,2900,3800,2500
+Dragonling,Magical,Medium,Uncommon,25,2200,2600,1000
+Rorc,Magical,Easy,Common,15,105,260,500
+Forest Fury,Magical,Medium,Common,25,235,480,1000
+Shock Head,Magical,Hard,Common,50,2300,4200,2500
+Sight of Surrender,Magical,Hard,Common,50,17000,28000,2500
+Guzzlemaw,Magical,Hard,Common,50,6050,6400,2500
+Silencer,Magical,Medium,Common,25,5100,5400,1000
+Choking Fear,Magical,Hard,Common,50,4700,5800,2500
+Terrorsleep,Magical,Hard,Common,50,7240,7200,2500
+Retching Horror,Magical,Hard,Common,50,4100,5300,2500
+Feversleep,Magical,Medium,Common,25,4400,5900,1000
+Frazzlemaw,Magical,Hard,Common,50,3740,4100,2500
+Tainted Soul,Magical,Easy,Common,15,0,250,500
+Redeemed Soul,Magical,Easy,Common,15,0,250,500
+Elder Forest Fury,Magical,Medium,Uncommon,25,330,670,1000
+Weakened Frazzlemaw,Magical,Medium,Common,25,1000,1200,1000
+Enfeebled Silencer,Magical,Medium,Common,25,1100,1100,1000
+Brain Squid,Magical,Hard,Common,50,17672,18000,2500
+Flying Book,Magical,Medium,Uncommon,25,200,500,1000
+Cursed Book,Magical,Hard,Uncommon,50,13345,20000,2500
+Guardian of Tales,Magical,Hard,Uncommon,50,9204,15000,2500
+Burning Book,Magical,Hard,Common,50,11934,18000,2500
+Icecold Book,Magical,Hard,Common,50,12750,21000,2500
+Energetic Book,Magical,Hard,Common,50,12034,18500,2500
+Energuardian of Tales,Magical,Hard,Common,50,11361,14000,2500
+Rage Squid,Magical,Hard,Common,50,14820,17000,2500
+Squid Warden,Magical,Hard,Common,50,15300,16500,2500
+Animated Feather,Magical,Hard,Common,50,9860,13000,2500
+Lumbering Carnivor,Magical,Medium,Common,25,1452,2600,1000
+Spiky Carnivor,Magical,Hard,Common,50,1650,2800,2500
+Menacing Carnivor,Magical,Hard,Common,50,2112,3500,2500
+Thanatursus,Magical,Hard,Common,50,6300,7200,2500
+Arachnophobica,Magical,Hard,Common,50,4700,5000,2500
+Crypt Warden,Magical,Hard,Common,50,8400,8300,2500
+Lamassu,Magical,Hard,Common,50,9000,8700,2500
+Feral Sphinx,Magical,Hard,Common,50,8800,9800,2500
+Sphinx,Magical,Hard,Common,50,7500,8500,2500
+Manticore,Magical,Hard,Common,50,5100,6700,2500
+Gryphon,Magical,Medium,Uncommon,25,1000,3200,1000
+Venerable Girtablilu,Magical,Hard,Common,50,5300,8500,2500
+Girtablilu Warrior,Magical,Hard,Common,50,5800,8500,2500
+Bashmu,Magical,Hard,Common,50,5000,8200,2500
+Juvenile Bashmu,Magical,Hard,Common,50,4500,7500,2500
+Darklight Construct,Magical,Challenging,Common,100,21200,32200,5000
+Darklight Emitter,Magical,Challenging,Common,100,19800,27500,5000
+Darklight Source,Magical,Challenging,Common,100,20800,31550,5000
+Darklight Striker,Magical,Challenging,Common,100,20550,29700,5000
+War Wolf,Mammal,Easy,Common,15,55,140,500
+Black Sheep,Mammal,Trivial,Uncommon,5,0,20,250
+Sheep,Mammal,Trivial,Common,5,0,20,250
+Bear,Mammal,Easy,Common,15,23,80,500
+Rat,Mammal,Trivial,Common,5,5,20,250
+Wolf,Mammal,Trivial,Common,5,18,25,250
+Deer,Mammal,Trivial,Common,5,0,25,250
+Dog,Mammal,Harmless,Common,1,0,20,25
+Lion,Mammal,Easy,Common,15,30,80,500
+Polar Bear,Mammal,Easy,Common,15,28,85,500
+Winter Wolf,Mammal,Trivial,Common,5,20,30,250
+Cave Rat,Mammal,Trivial,Common,5,10,30,250
+Pig,Mammal,Trivial,Common,5,0,25,250
+Rabbit,Mammal,Trivial,Common,5,0,15,250
+Hyaena,Mammal,Easy,Common,15,20,60,500
+Badger,Mammal,Trivial,Common,5,5,23,250
+Skunk,Mammal,Trivial,Common,5,3,20,250
+Yeti,Mammal,Medium,Very Rare,50,460,950,5
+Kongra,Mammal,Easy,Common,15,115,340,500
+Merlkin,Mammal,Easy,Common,15,145,235,500
+Sibang,Mammal,Easy,Common,15,105,225,500
+Bat,Mammal,Trivial,Common,5,10,30,250
+Panda,Mammal,Easy,Common,15,23,80,500
+Tiger,Mammal,Easy,Common,15,40,75,500
+Elephant,Mammal,Easy,Common,15,160,320,500
+Mammoth,Mammal,Easy,Common,15,160,320,500
+Husky,Mammal,Harmless,Uncommon,1,0,140,25
+Silver Rabbit,Mammal,Trivial,Common,5,0,15,250
+Squirrel,Mammal,Trivial,Common,5,0,20,250
+Cat,Mammal,Harmless,Common,1,0,20,25
+Mutated Rat,Mammal,Medium,Common,25,450,550,1000
+Mutated Bat,Mammal,Medium,Common,25,615,900,1000
+Mutated Tiger,Mammal,Medium,Common,25,750,1100,1000
+Evil Sheep,Mammal,Medium,Common,25,240,350,1000
+Evil Sheep Lord,Mammal,Medium,Uncommon,25,340,400,1000
+Hot Dog,Mammal,Medium,Uncommon,25,190,505,1000
+Doom Deer,Mammal,Medium,Uncommon,25,200,405,1000
+Killer Rabbit,Mammal,Easy,Uncommon,15,160,205,500
+Gnarlhound,Mammal,Easy,Common,15,60,198,500
+Boar,Mammal,Easy,Common,15,60,198,500
+White Deer,Mammal,Trivial,Rare,5,0,195,250
+Starving Wolf,Mammal,Easy,Rare,15,65,85,500
+Wild Horse,Mammal,Trivial,Very Rare,10,0,75,5
+Dromedary,Mammal,Trivial,Common,5,0,45,250
+Horse (Gray),Mammal,Trivial,Uncommon,5,0,75,250
+Horse (Brown),Mammal,Trivial,Uncommon,5,0,75,250
+Horse (Taupe),Mammal,Trivial,Rare,5,0,75,250
+Terrified Elephant,Mammal,Easy,Common,15,160,320,500
+Mushroom Sniffer,Mammal,Harmless,Common,1,0,250,25
+Water Buffalo,Mammal,Easy,Very Rare,30,20,390,5
+Modified Gnarlhound,Mammal,Harmless,Uncommon,1,0,1500,25
+Vulcongra,Mammal,Hard,Common,50,1100,1600,2500
+Roaring Lion,Mammal,Medium,Common,25,800,1000,1000
+Noble Lion,Mammal,Medium,Uncommon,25,400,1000,1000
+Gloom Wolf,Mammal,Easy,Uncommon,15,70,200,500
+Clomp,Mammal,Medium,Common,25,475,900,1000
+Stone Rhino,Mammal,Medium,Uncommon,25,1800,3000,1000
+Fox,Mammal,Trivial,Common,5,15,22,250
+Mole,Mammal,Easy,Common,15,100,200,500
+Baleful Bunny,Mammal,Medium,Rare,25,450,500,1000
+Roast Pork,Mammal,Medium,Rare,25,280,420,1000
+Cow,Mammal,Medium,Rare,25,400,700,1000
+White Lion,Mammal,Hard,Common,50,2300,2700,2500
+Exotic Bat,Mammal,Medium,Common,25,1200,1500,1000
+Parder,Mammal,Medium,Common,25,1100,1200,1000
+Gore Horn,Mammal,Challenging,Common,100,14610,18900,5000
+Sabretooth,Mammal,Challenging,Common,100,13840,15940,5000
+Nighthunter,Mammal,Challenging,Common,100,14670,17290,5000
+Gorerilla,Mammal,Challenging,Common,100,15280,15190,5000
+White Tiger,Mammal,Easy,Common,15,40,75,500
+Carniphila Raid,Plant,Medium,Common,25,150,255,1000
+Spit Nettle,Plant,Easy,Common,15,20,150,500
+Haunted Treeling,Plant,Medium,Common,25,310,450,1000
+Bane Bringer,Plant,Medium,Very Rare,50,400,2500,5
+Humongous Fungus,Plant,Hard,Common,50,2600,3400,2500
+Hideous Fungus,Plant,Hard,Common,50,2900,4600,2500
+Swampling,Plant,Easy,Common,15,45,80,500
+Leaf Golem,Plant,Easy,Common,15,45,90,500
+Wilting Leaf Golem,Plant,Medium,Common,25,145,380,1000
+Glooth Anemone,Plant,Medium,Common,25,1755,2400,1000
+Omnivora,Plant,Medium,Common,25,750,1200,1000
+Cloak of Terror,Plant,Challenging,Common,100,19700,28000,5000
+Branchy Crawler,Plant,Challenging,Common,100,17860,27000,5000
+Lavafungus,Plant,Hard,Common,50,6200,7200,2500
+Stalking Stalk,Plant,Challenging,Common,100,13420,15600,5000
+Snake,Reptile,Trivial,Common,5,10,15,250
+Cobra,Reptile,Easy,Common,15,30,65,500
+Lizard Templar Raid,Reptile,Easy,Common,15,155,410,500
+Lizard Sentinel Raid,Reptile,Easy,Common,15,110,265,500
+Lizard Snakecharmer Raid,Reptile,Medium,Common,25,210,325,1000
+Crocodile,Reptile,Easy,Common,15,40,105,500
+Serpent Spawn,Reptile,Medium,Common,25,3050,3000,1000
+Tortoise,Reptile,Easy,Common,15,90,185,500
+Thornback Tortoise,Reptile,Easy,Common,15,150,300,500
+Wyvern,Reptile,Medium,Common,25,515,795,1000
+Sea Serpent,Reptile,Medium,Common,25,2300,1950,1000
+Young Sea Serpent,Reptile,Medium,Common,25,1000,1050,1000
+Lizard Zaogun,Reptile,Medium,Common,25,1700,2955,1000
+Lizard Chosen,Reptile,Medium,Common,25,2200,3050,1000
+Lizard Dragon Priest,Reptile,Medium,Common,25,1320,1450,1000
+Lizard Legionnaire,Reptile,Medium,Common,25,1100,1400,1000
+Lizard High Guard,Reptile,Medium,Common,25,1450,1800,1000
+Killer Caiman,Reptile,Medium,Common,25,900,1500,1000
+Lizard Magistratus,Reptile,Medium,Common,25,2000,6250,1000
+Lizard Noble,Reptile,Hard,Common,50,2000,7000,2500
+Stampor,Reptile,Medium,Common,25,780,1200,1000
+Draptor,Reptile,Medium,Very Rare,50,2400,3000,5
+Seacrest Serpent,Reptile,Hard,Rare,50,2600,3000,2500
+Stonerefiner,Reptile,Medium,Common,25,500,800,1000
+Young Goanna,Reptile,Hard,Common,50,6100,6200,2500
+Adult Goanna,Reptile,Hard,Common,50,6650,8300,2500
+Two-Headed Turtle,Reptile,Hard,Common,50,2930,5010,2500
+Naga Archer,Reptile,Hard,Common,50,5520,4460,2500
+Naga Warrior,Reptile,Hard,Common,50,6330,5290,2500
+Emerald Tortoise,Reptile,Challenging,Common,100,14070,21040,5000
+Mantosaurus,Reptile,Challenging,Common,100,13420,17450,5000
+Noxious Ripptor,Reptile,Challenging,Common,100,15300,21500,5000
+Mercurial Menace,Reptile,Challenging,Common,100,14030,16800,5000
+Slime,Slime,Easy,Common,15,160,150,500
+Squidgy Slime,Slime,Easy,Rare,15,55,150,500
+Son of Verminor,Slime,Hard,Common,50,5900,8500,2500
+Defiler,Slime,Hard,Common,50,3700,3650,2500
+Acid Blob,Slime,Medium,Common,25,250,250,1000
+Death Blob,Slime,Medium,Common,25,300,320,1000
+Mercury Blob,Slime,Easy,Common,15,180,150,500
+Midnight Spawn,Slime,Medium,Very Rare,50,900,2000,5
+Glooth Blob,Slime,Medium,Common,25,700,750,1000
+Devourer,Slime,Medium,Common,25,1755,1900,1000
+Ink Blob,Slime,Hard,Common,50,14450,9500,2500
+Meandering Mushroom,Slime,Challenging,Common,100,19800,29100,5000
+Darklight Matter,Slime,Challenging,Common,100,20600,30150,5000
+Ghoul,Undead,Easy,Common,15,85,100,500
+Skeleton,Undead,Easy,Common,15,35,50,500
+Demon Skeleton,Undead,Medium,Common,25,240,400,1000
+Ghost,Undead,Easy,Common,15,120,150,500
+Mummy,Undead,Easy,Common,15,150,240,500
+Vampire,Undead,Medium,Common,25,305,475,1000
+Banshee,Undead,Medium,Common,25,900,1000,1000
+Lich,Undead,Medium,Common,25,900,880,1000
+Crypt Shambler,Undead,Easy,Common,15,195,330,500
+Bonebeast,Undead,Medium,Common,25,580,515,1000
+Pirate Skeleton,Undead,Easy,Common,15,85,190,500
+Pirate Ghost,Undead,Easy,Common,15,250,275,500
+Hand of Cursed Fate,Undead,Hard,Common,50,5000,7500,2500
+Undead Dragon,Undead,Hard,Common,50,7200,8350,2500
+Lost Soul,Undead,Medium,Common,25,4000,5800,1000
+Betrayed Wraith,Undead,Medium,Common,25,3500,4200,1000
+Spectre,Undead,Medium,Common,25,2100,1350,1000
+Blightwalker,Undead,Hard,Common,50,5850,8900,2500
+Braindeath,Undead,Medium,Common,25,985,1225,1000
+Undead Jester,Undead,Trivial,Very Rare,10,5,355,5
+Skeleton Warrior,Undead,Easy,Common,15,45,65,500
+Grim Reaper,Undead,Hard,Common,50,5500,3900,2500
+Vampire Bride,Undead,Medium,Common,25,1050,1200,1000
+Undead Gladiator,Undead,Medium,Common,25,800,1000,1000
+Zombie,Undead,Medium,Common,25,280,500,1000
+Vampire Pig,Undead,Medium,Uncommon,25,165,305,1000
+Bane of Light,Undead,Medium,Very Rare,50,750,1100,5
+Undead Mine Worker,Undead,Easy,Uncommon,15,45,65,500
+Undead Prospector,Undead,Easy,Uncommon,15,85,100,500
+Souleater,Undead,Medium,Common,25,1300,1100,1000
+Undead Cavebear,Undead,Medium,Very Rare,50,600,450,5
+Ghoulish Hyaena,Undead,Medium,Rare,25,195,400,1000
+Grave Guard,Undead,Medium,Rare,25,485,720,1000
+Tomb Servant,Undead,Medium,Rare,25,215,475,1000
+Death Priest,Undead,Medium,Rare,25,750,800,1000
+Elder Mummy,Undead,Medium,Rare,25,560,850,1000
+Honour Guard,Undead,Easy,Rare,15,55,85,500
+Vampire Viscount,Undead,Medium,Common,25,800,1200,1000
+Vicious Manbat,Undead,Medium,Very Rare,50,1200,1700,5
+White Shade,Undead,Easy,Common,15,120,260,500
+Gravedigger,Undead,Medium,Common,25,950,1500,1000
+Tarnished Spirit,Undead,Easy,Common,15,120,150,500
+Blood Beast,Undead,Medium,Common,25,1000,1600,1000
+Rot Elemental,Undead,Medium,Common,25,750,850,1000
+Ghost Wolf,Undead,Easy,Rare,15,65,160,500
+Putrid Mummy,Undead,Medium,Common,25,900,1500,1000
+Falcon Knight,Undead,Hard,Common,50,5985,9000,2500
+Falcon Paladin,Undead,Hard,Common,50,6544,8500,2500
+Skeleton Elite Warrior,Undead,Hard,Common,50,4500,7800,2500
+Undead Elite Gladiator,Undead,Hard,Common,50,4740,8000,2500
+Ripper Spectre,Undead,Hard,Common,50,3500,3800,2500
+Gazer Spectre,Undead,Hard,Common,50,4200,4500,2500
+Burster Spectre,Undead,Hard,Common,50,6000,6500,2500
+Flimsy Lost Soul,Undead,Hard,Common,50,4500,4000,2500
+Mean Lost Soul,Undead,Hard,Common,50,5580,5000,2500
+Freakish Lost Soul,Undead,Hard,Common,50,7020,7000,2500
+Cursed Prospector,Undead,Hard,Common,50,5250,3900,2500
+Evil Prospector,Undead,Hard,Common,50,9000,8500,2500
+Bony Sea Devil,Undead,Challenging,Common,100,19470,24000,5000
+Vibrant Phantom,Undead,Challenging,Common,100,19700,27000,5000
+Capricious Phantom,Undead,Challenging,Common,100,19360,30000,5000
+Infernal Phantom,Undead,Challenging,Common,100,14080,26000,5000
+Mould Phantom,Undead,Challenging,Common,100,18330,28000,5000
+Druid's Apparition,Undead,Challenging,Common,100,18870,25000,5000
+Knight's Apparition,Undead,Challenging,Common,100,18870,25000,5000
+Paladin's Apparition,Undead,Challenging,Common,100,18870,25000,5000
+Sorcerer's Apparition,Undead,Challenging,Common,100,18870,25000,5000
+Distorted Phantom,Undead,Challenging,Common,100,18870,26000,5000
+Crypt Warrior,Undead,Hard,Common,50,4200,7800,2500
+Iks Pututu,Undead,Medium,Common,25,980,1310,1000
+Iks Aucar,Undead,Medium,Common,25,1150,1520,1000
+Iks Chuka,Undead,Medium,Common,25,1050,1240,1000
+Cursed Ape,Undead,Medium,Common,25,1860,1700,1000
+Iks Ahpututu,Undead,Medium,Very Rare,50,1700,1630,5
+Iks Churrascan,Undead,Medium,Rare,25,0,1520,1000
+Oozing Carcass,Undead,Challenging,Common,100,18900,27500,5000
+Oozing Corpus,Undead,Challenging,Common,100,19800,28700,5000
+Sopping Carcass,Undead,Challenging,Common,100,21100,32700,5000
+Sopping Corpus,Undead,Challenging,Common,100,21600,33400,5000
+Iks Yapunac,Undead,Hard,Common,50,2340,3125,2500
+Rotworm,Vermin,Easy,Common,15,40,65,500
+Spider,Vermin,Trivial,Common,5,12,20,250
+Poison Spider,Vermin,Trivial,Common,5,22,26,250
+Giant Spider,Vermin,Medium,Common,25,900,1300,1000
+Scorpion,Vermin,Easy,Common,15,45,45,500
+Wasp,Vermin,Trivial,Common,5,24,35,250
+Bug,Vermin,Trivial,Common,5,18,29,250
+Ancient Scarab,Vermin,Medium,Common,25,720,1000,1000
+Larva Raid,Vermin,Easy,Common,15,44,70,500
+Scarab Raid,Vermin,Easy,Common,15,120,320,500
+Centipede,Vermin,Easy,Common,15,34,70,500
+Butterfly (Purple),Vermin,Harmless,Common,1,0,2,25
+Tarantula,Vermin,Easy,Common,15,120,225,500
+Butterfly (Blue),Vermin,Harmless,Common,1,0,2,25
+Butterfly (Red),Vermin,Harmless,Common,1,0,2,25
+Carrion Worm,Vermin,Easy,Common,15,70,145,500
+Insect Swarm,Vermin,Easy,Common,15,40,50,500
+Terramite Raid,Vermin,Easy,Common,15,160,365,500
+Wailing Widow,Vermin,Medium,Common,25,450,850,1000
+Lancer Beetle,Vermin,Medium,Common,25,275,400,1000
+Sandcrawler,Vermin,Trivial,Common,5,20,30,250
+Brimstone Bug,Vermin,Medium,Common,25,900,1300,1000
+Berrypest,Vermin,Harmless,Very Rare,5,0,500,5
+Sacred Spider,Vermin,Medium,Rare,25,330,550,1000
+Slug,Vermin,Easy,Common,15,70,255,500
+Insectoid Scout,Vermin,Easy,Rare,15,150,230,500
+Ladybug,Vermin,Easy,Rare,15,70,255,500
+Crawler,Vermin,Medium,Common,25,1000,1450,1000
+Spidris,Vermin,Medium,Rare,25,2600,3700,1000
+Kollos,Vermin,Medium,Rare,25,2400,3800,1000
+Swarmer,Vermin,Medium,Common,25,350,460,1000
+Spitter,Vermin,Medium,Common,25,1100,1500,1000
+Waspoid,Vermin,Medium,Common,25,830,1100,1000
+Insectoid Worker,Vermin,Medium,Common,25,650,950,1000
+Spidris Elite,Vermin,Medium,Rare,25,4000,5000,1000
+Hive Overseer,Vermin,Hard,Rare,50,5500,7500,2500
+Drillworm,Vermin,Medium,Common,25,858,1500,1000
+Wiggler,Vermin,Medium,Common,25,900,1200,1000
+Emerald Damselfly,Vermin,Easy,Common,15,35,90,500
+Deepworm,Vermin,Hard,Common,50,2300,3500,2500
+Diremaw,Vermin,Hard,Common,50,2500,3600,2500
+Cave Devourer,Vermin,Hard,Common,50,2380,4500,2500
+Tunnel Tyrant,Vermin,Hard,Common,50,3400,5200,2500
+Chasm Spawn,Vermin,Hard,Common,50,2700,4500,2500
+Lacewing Moth,Vermin,Medium,Uncommon,25,800,900,1000
+Hibernal Moth,Vermin,Medium,Uncommon,25,700,850,1000
+Exotic Cave Spider,Vermin,Medium,Common,25,1400,1900,1000
+Lavaworm,Vermin,Hard,Common,50,6500,7500,2500
+Tremendous Tyrant,Vermin,Hard,Common,50,6100,11500,2500
+Varnished Diremaw,Vermin,Hard,Common,50,5900,9000,2500
+Streaked Devourer,Vermin,Hard,Common,50,6300,7000,2500
+Eyeless Devourer,Vermin,Hard,Common,50,6000,10000,2500
+Blemished Spawn,Vermin,Hard,Common,50,5300,9000,2500
+Afflicted Strider,Vermin,Hard,Common,50,5700,10000,2500
+Cave Chimera,Vermin,Hard,Common,50,6800,8000,2500
+Sulphider,Vermin,Challenging,Common,100,13328,21000,5000
+Undertaker,Vermin,Challenging,Common,100,13543,20100,5000
+Mycobiontic Beetle,Vermin,Challenging,Common,100,20360,30200,5000
+Bloated Man-Maggot,Vermin,Challenging,Common,100,20740,31700,5000
