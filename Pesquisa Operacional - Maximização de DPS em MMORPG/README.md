@@ -31,7 +31,11 @@ turnos_dano_para_morte: Média do número de turnos de dano a criatura recebe an
 
 # Pesquisa Operacional
 
+## Variáveis de decisão
+Nesse estudo de caso são 6 criaturas e 8 runas distintas. Serão, portanto, 48 variáveis binárias para indicar se o conjunto [runa,criatura] estará habilitado (1) ou não (0).
+
 ## Função Objetivo
+A função objetivo escolhida foi a maximização do DPS (dano por segundo) que foi dividida em duas equações. Uma referente as runas de dano elemental e outra referente as runas de dano refletido.
 - ![](funcao_objetivo.png)
 ## Restrição 1: Cada runa deve ter, no máximo, 1 criatura alocada
 - ![](eq_restricao1.png)
