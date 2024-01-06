@@ -1,3 +1,5 @@
+
+
 # Contextualização do problema
 
 Tibia, lançado em 1998, é um dos primeiros MMORPGs que, mesmo após várias atualizações, mantém sua relevância como um dos maiores do gênero até hoje. As constantes melhorias no jogo introduziram uma diversidade de criaturas e locais de caça, cada uma apresentando estatísticas únicas como a vida máxima, fraquezas ou fortalezas á elementos, quantidade de golpes distintos, dano de cada golpe, dano por turno (DPS), além de outras estatísticas calculadas previamente (dado as características do meu personagem) como quantidade de turnos de dano que a criatura deve receber para morrer.
@@ -30,8 +32,9 @@ turnos_dano_para_morte: Média do número de turnos de dano a criatura recebe an
 # Pesquisa Operacional
 
 ## Função Objetivo
-- 
-## Restrição 1:
--
-## Restrição 2:
--
+- ![](image/funcao_objetivo.png)
+## Restrição 1: Cada runa deve ter, no máximo, 1 criatura alocada
+- ![](image/eq_restricao1.png)
+- ![](image/eq_restricao1.1.png)
+## Restrição 2: Cada criatura deve ter, no máximo, 1 runa alocada.
+- ![](image/eq_restricao1.1.png)
