@@ -51,7 +51,7 @@ A função objetivo escolhida foi a maximização do DPS (dano por segundo) que 
   
 ![](p(x).png)   
 onde:  
-![](n x.png)  
+![](nx.png)  
 
 ## Restrição 1: Cada runa deve ter, no máximo, 1 criatura alocada
 - ![](eq_restricao1.png)
