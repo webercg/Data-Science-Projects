@@ -43,6 +43,11 @@ Nesse estudo de caso são 6 criaturas e 8 runas distintas. Serão, portanto, 48 
 ## Função Objetivo
 A função objetivo escolhida foi a maximização do DPS (dano por segundo) que foi dividida em duas equações. Uma referente as runas de dano elemental e outra referente as runas de dano refletido.
 - ![](funcao_objetivo.png)
+  
+Nota1: A probabilidade de ativação da runa elemental é uma binomial 1 sucesso (maximo ativação 1 por criatura) em n tentativas (onde n = golpes que meu personagem DESFERE na criatura)
+Nota2: A probabilidade de ativação da runa refletora é uma binomial k sucesso (sem limite de ativação por criatura) em n tentativas (onde n = golpes que meu personagem RECEBE da criatura com k <= n).
+Nota3: Como não há limite de ativação por criatura no caso da runa refletora, no script lidamos com uma distribuição de probabilidade de 1 sucesso até k sucessos e estimamos um valor intermediário entre 1 e k.
+
 ## Restrição 1: Cada runa deve ter, no máximo, 1 criatura alocada
 - ![](eq_restricao1.png)
 - ![](eq_restricao1.1.png)
@@ -58,12 +63,11 @@ A escolha de Runas que maximiza o DPS para o local de caça dos Elfos de Fogo pa
 | Dano Poison  | Lacewing Moth  |
 | Dano Fire  | -  |
 | Dano Death  | Thanatursus  |
-| Dano Energy  | Crazed Summer Rearguard   |
+| Dano Energy  | -  |
 | Dano Holy  | Arachnophobica  |
-| Dano Ice  | Crazed Summer Vanguard |
-| Reflect  | - |
+| Dano Ice  | Crazed Summer Rearguard  |
+| Reflect  | Crazed Summer Vanguard  |
    
 - No código, é realizada uma comparação entre os resultados da pesquisa operacional e o algoritmo de força bruta para validar os resultados. Ambas as técnicas convergiram para a mesma alocação de runas.
 - Observa-se que a runa de dano de Fogo não foi escolhida no algoritmo, possivelmente devido à resistência ao fogo das criaturas enfrentadas no local de caça escolhido (Elfos de Fogo).
-- Além disso, a runa de dano refletido também não foi alocada para esse local de caça. Dada as estatísticas das criaturas nesse local, é mais vantajoso investir em runas elementais em comparação com runas refletoras.
-- Não alocar a runa refletora de dano é contra-intuitivo na gameplay da profissão de Cavalheiros (Knights), já que a runa mais popular e mais priorizada por essa profissão. Os resultados mostraram que, para esse local de caça, essa runa é superestimada. Isso mostra a importância de uma boa análise para alocar corretamente as runas e maximizar o dano e os pontos de experiência adquiridos.
+- A runa refletora foi alocada na criatura Vanguard em vez da Rearguard pois, além de possuir maior aparição também possui maior quantidade de golpes distintos, o que aumenta a probabilidade de ativação da runa.
