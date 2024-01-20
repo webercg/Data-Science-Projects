@@ -42,11 +42,11 @@ Nesse estudo de caso são 6 criaturas e 8 runas distintas. Serão, portanto, 48 
 
 ## Função Objetivo
 A função objetivo escolhida foi a maximização do DPS (dano por segundo) que foi dividida em duas equações. Uma referente as runas de dano elemental e outra referente as runas de dano refletido.
-- ![](funcao_objetivo.png)
+![](funcao_objetivo.png)  
   
-Nota1: A probabilidade de ativação da runa elemental é uma binomial 1 sucesso (maximo ativação 1 por criatura) em n tentativas (onde n = golpes que meu personagem DESFERE na criatura);  
-Nota2: A probabilidade de ativação da runa refletora é uma binomial k sucesso (sem limite de ativação por criatura) em n tentativas (onde n = golpes que meu personagem RECEBE da criatura com k <= n);   
-Nota3: Como não há limite de ativação por criatura no caso da runa refletora, no script lidamos com uma distribuição de probabilidade de 1 sucesso até k sucessos e estimamos um valor intermediário entre 1 e k.  
+- Nota1: A probabilidade de ativação da runa elemental é uma binomial 1 sucesso (maximo ativação 1 por criatura) em n tentativas (onde n = golpes que meu personagem DESFERE na criatura);  
+- Nota2: A probabilidade de ativação da runa refletora é uma binomial k sucesso (sem limite de ativação por criatura) em n tentativas (onde n = golpes que meu personagem RECEBE da criatura com k <= n);   
+- Nota3: Como não há limite de ativação por criatura no caso da runa refletora, no script lidamos com uma distribuição de probabilidade de 1 sucesso até k sucessos e estimamos um valor intermediário entre 1 e k.  
 
 ## Restrição 1: Cada runa deve ter, no máximo, 1 criatura alocada
 - ![](eq_restricao1.png)
