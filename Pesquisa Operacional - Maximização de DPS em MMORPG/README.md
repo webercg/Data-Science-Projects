@@ -1,6 +1,11 @@
 
 # Otimização de DPS no Tibia: Uma abordagem com pesquisa operacional
-![](screenshot1.png)
+![](screenshot1.png)  
+
+## Apresentação Youtube / Linkedin
+[![Alt text](https://img.youtube.com/vi/JMaK67Lw-g0/0.jpg)](https://www.youtube.com/watch?v=JMaK67Lw-g0)  
+![Acesse o PDF da apresentação](https://github.com/webercg/Data-Science-Projects/blob/main/Pesquisa%20Operacional%20-%20Maximiza%C3%A7%C3%A3o%20de%20DPS%20em%20MMORPG/Apresenta%C3%A7%C3%A3o%20-%20Vers%C3%A3o%20PDF.pdf)
+
 
 # Contextualização do problema
 
