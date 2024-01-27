@@ -68,11 +68,11 @@ A escolha de Runas que maximiza o DPS para o local de caça dos Elfos de Fogo pa
 | Dano Poison  | Lacewing Moth  |
 | Dano Fire  | -  |
 | Dano Death  | Thanatursus  |
-| Dano Energy  | -  |
+| Dano Energy  | Crazed Summer Rearguard  |
 | Dano Holy  | Arachnophobica  |
-| Dano Ice  | Crazed Summer Rearguard  |
-| Reflect  | Crazed Summer Vanguard  |
+| Dano Ice  | Crazed Summer Vanguard:  |
+| Reflect  | - |
    
 - No código, é realizada uma comparação entre os resultados da pesquisa operacional e o algoritmo de força bruta para validar os resultados. Ambas as técnicas convergiram para a mesma alocação de runas.  
 - Observa-se que a runa de dano de Fogo não foi escolhida no algoritmo, possivelmente devido à resistência ao fogo das criaturas enfrentadas no local de caça escolhido (Elfos de Fogo).  
-- A runa refletora foi alocada na criatura Vanguard em vez da Rearguard pois, além de possuir maior aparição também possui maior quantidade de golpes distintos, o que aumenta a probabilidade de ativação da runa.  
+- A runa refletora não foi escolhida, isso é contraintuitivo na jogabilidade de cavalheiros que é a profissão responsável por receber maior quantidade de dano e de golpes. Contudo, validando esses resultados com a experiência de alguns jogadores isso se provou verdade, a runa refletora não é tão boa quanto as elementais e geralmente não é escolhida nos locais de caça.
